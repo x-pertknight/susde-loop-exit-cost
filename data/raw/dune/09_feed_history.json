@@ -1,0 +1,20 @@
+{
+ "query_id": 9186164,
+ "run_at": "2026-11-24",
+ "rows": [
+  {
+   "first_day": "2025-10-01",
+   "days": 419,
+   "usde_updates": 440,
+   "pyusd_updates": 422,
+   "usde_min": 0.99293808,
+   "usde_min_day": "2025-10-10",
+   "pyusd_max": 1.00467799,
+   "pyusd_max_day": "2025-10-10",
+   "days_usde_below_0995": 2,
+   "days_usde_below_099": 0,
+   "second_lowest_usde": 0.9944482,
+   "second_lowest_day": "2026-10-30"
+  }
+ ]
+}

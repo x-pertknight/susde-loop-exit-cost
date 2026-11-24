@@ -1,0 +1,15 @@
+{
+ "query_id": 9186175,
+ "run_at": "2026-11-24",
+ "rows": [
+  {
+   "days": 90,
+   "median_daily_m": 5.94,
+   "mean_daily_m": 7.93,
+   "max_daily_m": 27.2,
+   "median_daily_sold_m": 3.1,
+   "max_daily_sold_m": 14.37,
+   "total_m": 714.1
+  }
+ ]
+}

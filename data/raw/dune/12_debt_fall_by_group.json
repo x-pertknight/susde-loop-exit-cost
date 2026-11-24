@@ -1,0 +1,24 @@
+{
+ "query_id": 9186043,
+ "run_at": "2026-11-24",
+ "unit": "millions of PYUSD and counts of addresses",
+ "rows": [
+  {
+   "debt_peak_m": 161.4,
+   "debt_low_m": 20.6,
+   "addresses_with_debt_at_peak": 22,
+   "addresses_with_debt_at_low": 7,
+   "net_fall_m": 141.9,
+   "gross_fall_m": 162.5,
+   "gross_rise_m": 20.6,
+   "fall_top3_m": 134.9,
+   "fall_top10_m": 161.0,
+   "addresses_falling_over_1m": 10,
+   "addresses_over_1m_that_closed": 10,
+   "top10_under_5pct_left": 10,
+   "repaid_in_window_m": 272.6,
+   "borrowed_in_window_m": 131.5,
+   "liquidated_in_window_m": 0.788
+  }
+ ]
+}

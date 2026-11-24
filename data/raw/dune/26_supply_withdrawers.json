@@ -1,0 +1,28 @@
+{
+ "query_id": 9180633,
+ "run_at": "2026-11-24",
+ "unit": "millions of PYUSD, counts of suppliers",
+ "note": "Aggregated from the per-supplier result of the Dune run. Every withdrawing supplier is a MetaMorpho vault (read on chain and from the Morpho API). The two vaults of 11 May have the same curator and owner; one of them is the vault of 18 April.",
+ "rows": [
+  {
+   "label": "2026-04-18 20:00-21:00",
+   "withdrawing_suppliers": 1,
+   "of_which_metamorpho_vaults": 1,
+   "withdrawn_m": 18.15,
+   "largest_withdrawer_m": 18.15,
+   "supplied_in_window_m": 0,
+   "curators": 1
+  },
+  {
+   "label": "2026-05-11 15:00-17:00",
+   "withdrawing_suppliers": 2,
+   "of_which_metamorpho_vaults": 2,
+   "withdrawn_m": 24.2,
+   "largest_withdrawer_m": 18.27,
+   "supplied_in_window_m": 0,
+   "curators": 1
+  }
+ ],
+ "distinct_vaults_both_windows": 2,
+ "distinct_curators_both_windows": 1
+}

@@ -1,0 +1,20 @@
+{
+ "oracle": "0xE6212D05cB5aF3C821Fef1C1A233a678724F9E7E",
+ "read_at_unix": 1795462435,
+ "BASE_VAULT": {
+  "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+ },
+ "BASE_FEED_1": {
+  "address": "0xa569d910839ae8865da8f8e70fffb0cba869f961",
+  "description": "USDe / USD",
+  "answer": 0.99946656
+ },
+ "BASE_FEED_2": null,
+ "QUOTE_FEED_1": {
+  "address": "0x8f1df6d7f2db73eece86a18b4381f4707b918fb1",
+  "description": "PYUSD / USD",
+  "answer": 0.99986593
+ },
+ "QUOTE_FEED_2": null,
+ "QUOTE_VAULT": null
+}

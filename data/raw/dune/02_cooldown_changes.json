@@ -1,0 +1,16 @@
+{
+ "query_id": 9186166,
+ "run_at": "2026-11-24",
+ "rows": [
+  {
+   "evt_block_time": "2023-11-20 22:16:11 UTC",
+   "previous_days": 90.0,
+   "new_days": 7.0
+  },
+  {
+   "evt_block_time": "2026-03-16 11:37:47 UTC",
+   "previous_days": 7.0,
+   "new_days": 1.0
+  }
+ ]
+}

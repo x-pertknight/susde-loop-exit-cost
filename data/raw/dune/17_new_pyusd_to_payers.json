@@ -1,0 +1,22 @@
+{
+ "query_id": 9186213,
+ "run_at": "2026-11-24",
+ "unit": "millions of PYUSD and counts",
+ "rows": [
+  {
+   "mints_to_payers": 7,
+   "minted_to_payers_m": 36.5,
+   "payer_addresses": 2,
+   "payer_addresses_that_are_contracts": 0,
+   "distinct_tx_senders": 5,
+   "tx_senders_that_are_contracts": 0,
+   "mints_sent_by_the_payer_itself": 0,
+   "mints_by_direct_call_to_the_token": 0,
+   "distinct_contracts_called": 1,
+   "recipients_of_these_senders_all_mints": 3043,
+   "minted_by_these_senders_all_m": 1882.0,
+   "all_pyusd_minted_m": 11446.6,
+   "all_mint_tx_senders": 19
+  }
+ ]
+}

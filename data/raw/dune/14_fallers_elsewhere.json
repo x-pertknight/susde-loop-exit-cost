@@ -1,0 +1,21 @@
+{
+ "query_id": 9186201,
+ "run_at": "2026-11-24",
+ "unit": "millions of PYUSD and counts of addresses",
+ "rows": [
+  {
+   "addresses": 10,
+   "fall_m": 161.0,
+   "with_borrow_in_another_morpho_market": 6,
+   "their_fall_m": 54.2,
+   "with_borrow_on_aave_v3": 4,
+   "their_fall_aave_m": 12.4,
+   "with_unstake_in_window": 8,
+   "their_fall_unstake_m": 121.7,
+   "fall_matched_by_usde_unstaked_m": 121.2,
+   "came_back_after_low": 1,
+   "borrowed_here_after_low_m": 5.5,
+   "with_none_of_these": 1
+  }
+ ]
+}

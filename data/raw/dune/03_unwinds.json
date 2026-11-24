@@ -1,0 +1,26 @@
+{
+ "query_id": 9186177,
+ "run_at": "2026-11-24",
+ "window_days": 90,
+ "rows": [
+  {
+   "market": "sUSDe / PYUSD",
+   "withdrawals": 130,
+   "collateral_withdrawn": 38288127.44903332,
+   "atomic_collateral": 36616089.803689316,
+   "flashloan_collateral": 906900.6729090463,
+   "liquidations_all_time": 1,
+   "bad_debt_raw_all_time": 0
+  },
+  {
+   "market": "PT-sUSDe 26NOV2026 / USDC",
+   "withdrawals": 44,
+   "collateral_withdrawn": 7053955.695023738,
+   "atomic_collateral": 6954208.316640364,
+   "flashloan_collateral": 28362.18361586889,
+   "liquidations_all_time": null,
+   "bad_debt_raw_all_time": null
+  }
+ ],
+ "note": "Markets with fewer than 5 withdrawals in the window are left out."
+}

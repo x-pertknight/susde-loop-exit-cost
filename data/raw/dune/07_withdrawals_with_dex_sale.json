@@ -1,0 +1,14 @@
+{
+ "query_id": 9186174,
+ "run_at": "2026-11-24",
+ "unit": "sUSDe",
+ "rows": [
+  {
+   "withdrawal_txs": 130,
+   "collateral": 38288127.44903333,
+   "with_repay": 36616089.803689316,
+   "with_dex_sale": 906900.6729090463,
+   "txs_with_dex_sale": 9
+  }
+ ]
+}

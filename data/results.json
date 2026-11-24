@@ -1,0 +1,1948 @@
+{
+ "market_main": {
+  "borrowAssetsUsd": 93974975.80096036,
+  "collateralAssetsUsd": 108664601.98072614,
+  "liquidityAssetsUsd": 21259581.57633946,
+  "borrowApy": 0.038627466382259466,
+  "utilization": 0.8155050924189302,
+  "lltv": 0.915
+ },
+ "markets_total_debt_usd": 99916156.81817159,
+ "positions_all_markets_over_10k": 29,
+ "positions_all_markets_any_debt": 152,
+ "population_main": {
+  "positions": 19,
+  "debt_musd": 94.0,
+  "collateral_musd": 108.7,
+  "ltv_debt_weighted_mean": 0.865,
+  "leverage_at_mean_ltv": 7.4,
+  "feed_fall_to_liquidation_at_mean_ltv": 0.054,
+  "debt_share_within_2_points": 0.02,
+  "top10_debt_share": 0.94,
+  "positions_collateral_over_5m": 9,
+  "collateral_share_over_5m": 0.9
+ },
+ "oracle_main": {
+  "oracle": "0xE6212D05cB5aF3C821Fef1C1A233a678724F9E7E",
+  "read_at_unix": 1795462435,
+  "BASE_VAULT": {
+   "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+  },
+  "BASE_FEED_1": {
+   "address": "0xa569d910839ae8865da8f8e70fffb0cba869f961",
+   "description": "USDe / USD",
+   "answer": 0.99946656
+  },
+  "BASE_FEED_2": null,
+  "QUOTE_FEED_1": {
+   "address": "0x8f1df6d7f2db73eece86a18b4381f4707b918fb1",
+   "description": "PYUSD / USD",
+   "answer": 0.99986593
+  },
+  "QUOTE_FEED_2": null,
+  "QUOTE_VAULT": null
+ },
+ "feed_history": {
+  "first_day": "2025-10-01",
+  "days": 419,
+  "usde_updates": 440,
+  "pyusd_updates": 422,
+  "usde_min": 0.99293808,
+  "usde_min_day": "2025-10-10",
+  "pyusd_max": 1.00467799,
+  "pyusd_max_day": "2025-10-10",
+  "days_usde_below_0995": 2,
+  "days_usde_below_099": 0,
+  "second_lowest_usde": 0.9944482,
+  "second_lowest_day": "2026-10-30"
+ },
+ "quotes": {
+  "snapshots": 8,
+  "first_unix": 1795461397,
+  "last_unix": 1795550444,
+  "snapshot_times_unix": [
+   1795461397,
+   1795461619,
+   1795462511,
+   1795463430,
+   1795468962,
+   1795509051,
+   1795528855,
+   1795550444
+  ],
+  "snapshot_times_utc": [
+   "2026-11-23 19:16",
+   "2026-11-23 19:20",
+   "2026-11-23 19:35",
+   "2026-11-23 19:50",
+   "2026-11-23 21:22",
+   "2026-11-24 08:30",
+   "2026-11-24 14:00",
+   "2026-11-24 20:00"
+  ],
+  "sUSDe_to_USDC": {
+   "100000": {
+    "median_bp": 3.1,
+    "min_bp": 1.0,
+    "max_bp": 3.9,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "500000": {
+    "median_bp": 4.9,
+    "min_bp": 2.9,
+    "max_bp": 6.0,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "1000000": {
+    "median_bp": 6.4,
+    "min_bp": 4.5,
+    "max_bp": 7.4,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "2000000": {
+    "median_bp": 8.6,
+    "min_bp": 7.4,
+    "max_bp": 9.7,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "2500000": {
+    "median_bp": 9.8,
+    "min_bp": 8.4,
+    "max_bp": 10.8,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "3000000": {
+    "median_bp": 11.0,
+    "min_bp": 9.7,
+    "max_bp": 12.2,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "3500000": {
+    "median_bp": 13.1,
+    "min_bp": 11.4,
+    "max_bp": 15.4,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "4000000": {
+    "median_bp": 17.3,
+    "min_bp": 13.7,
+    "max_bp": 18.8,
+    "snapshots": 7,
+    "min_sources": 2
+   },
+   "5000000": {
+    "median_bp": 44.5,
+    "min_bp": 23.6,
+    "max_bp": 166.0,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "7500000": {
+    "median_bp": 2604.1,
+    "min_bp": 2005.4,
+    "max_bp": 2720.5,
+    "snapshots": 7,
+    "min_sources": 2
+   },
+   "10000000": {
+    "median_bp": 4866.3,
+    "min_bp": 4392.8,
+    "max_bp": 5159.9,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "25000000": {
+    "median_bp": 7956.0,
+    "min_bp": 7690.1,
+    "max_bp": 8718.8,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "50000000": {
+    "median_bp": 9129.4,
+    "min_bp": 8966.3,
+    "max_bp": 9154.7,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "100000000": {
+    "median_bp": 9586.9,
+    "min_bp": 9586.9,
+    "max_bp": 9586.9,
+    "snapshots": 1,
+    "min_sources": 2
+   }
+  },
+  "sUSDe_to_USDC_or_USDT": {
+   "100000": {
+    "median_bp": -6.5,
+    "min_bp": -10.2,
+    "max_bp": -5.9,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "500000": {
+    "median_bp": -4.8,
+    "min_bp": -8.3,
+    "max_bp": -4.4,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "1000000": {
+    "median_bp": -3.4,
+    "min_bp": -6.7,
+    "max_bp": -2.9,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "2000000": {
+    "median_bp": -1.2,
+    "min_bp": -4.0,
+    "max_bp": -0.8,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "2500000": {
+    "median_bp": -0.1,
+    "min_bp": -2.9,
+    "max_bp": 0.2,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "3000000": {
+    "median_bp": 1.3,
+    "min_bp": -1.6,
+    "max_bp": 2.0,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "3500000": {
+    "median_bp": 3.6,
+    "min_bp": 0.0,
+    "max_bp": 5.4,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "4000000": {
+    "median_bp": 8.7,
+    "min_bp": 2.4,
+    "max_bp": 9.8,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "5000000": {
+    "median_bp": 28.1,
+    "min_bp": 9.1,
+    "max_bp": 45.8,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "7500000": {
+    "median_bp": 2572.0,
+    "min_bp": 1950.9,
+    "max_bp": 2672.6,
+    "snapshots": 7,
+    "min_sources": 2
+   },
+   "10000000": {
+    "median_bp": 4029.2,
+    "min_bp": 2646.8,
+    "max_bp": 4868.6,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "25000000": {
+    "median_bp": 7907.5,
+    "min_bp": 7690.1,
+    "max_bp": 8145.9,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "50000000": {
+    "median_bp": 8992.3,
+    "min_bp": 8730.5,
+    "max_bp": 9077.1,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "100000000": {
+    "median_bp": 9473.5,
+    "min_bp": 9473.5,
+    "max_bp": 9473.5,
+    "snapshots": 1,
+    "min_sources": 2
+   }
+  },
+  "USDe_to_USDC": {
+   "100000": {
+    "median_bp": 0.3,
+    "min_bp": -0.9,
+    "max_bp": 1.2,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "500000": {
+    "median_bp": 1.3,
+    "min_bp": 0.2,
+    "max_bp": 1.9,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "1000000": {
+    "median_bp": 2.0,
+    "min_bp": 0.9,
+    "max_bp": 2.4,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "2000000": {
+    "median_bp": 3.2,
+    "min_bp": 2.1,
+    "max_bp": 4.0,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "2500000": {
+    "median_bp": 3.9,
+    "min_bp": 2.6,
+    "max_bp": 4.8,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "3000000": {
+    "median_bp": 4.6,
+    "min_bp": 3.2,
+    "max_bp": 5.6,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "3500000": {
+    "median_bp": 5.5,
+    "min_bp": 3.9,
+    "max_bp": 6.4,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "4000000": {
+    "median_bp": 6.2,
+    "min_bp": 4.6,
+    "max_bp": 7.1,
+    "snapshots": 7,
+    "min_sources": 3
+   },
+   "5000000": {
+    "median_bp": 7.6,
+    "min_bp": 6.3,
+    "max_bp": 8.7,
+    "snapshots": 8,
+    "min_sources": 3
+   },
+   "7500000": {
+    "median_bp": 15.8,
+    "min_bp": 11.3,
+    "max_bp": 32.2,
+    "snapshots": 7,
+    "min_sources": 2
+   },
+   "10000000": {
+    "median_bp": 1339.4,
+    "min_bp": 720.8,
+    "max_bp": 1492.1,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "25000000": {
+    "median_bp": 6902.7,
+    "min_bp": 6620.7,
+    "max_bp": 7061.8,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "50000000": {
+    "median_bp": 8451.2,
+    "min_bp": 8419.3,
+    "max_bp": 8597.9,
+    "snapshots": 8,
+    "min_sources": 2
+   },
+   "100000000": {
+    "median_bp": 9239.4,
+    "min_bp": 9239.4,
+    "max_bp": 9239.4,
+    "snapshots": 1,
+    "min_sources": 2
+   }
+  },
+  "sUSDe_to_USDC_largest_size_under_50bp_in_all_snapshots": 4000000,
+  "sUSDe_to_USDC_smallest_size_over_50bp_in_all_snapshots": 7500000,
+  "sUSDe_to_USDC_or_USDT_largest_size_under_50bp_in_all_snapshots": 5000000,
+  "sUSDe_to_USDC_or_USDT_smallest_size_over_50bp_in_all_snapshots": 7500000,
+  "sUSDe_to_USDC_7_5m_loss_above_pct": 20
+ },
+ "carry_morpho": {
+  "weeks": 45,
+  "first_week_end": "2026-01-19",
+  "last_week_end": "2026-11-23",
+  "negative_weeks": 2,
+  "longest_negative_run": 1,
+  "days": 320,
+  "negative_days": 28,
+  "mean_spread_points": 0.6,
+  "min_spread_points": -1.54,
+  "mean_spread_points_weeks_above": 0.69,
+  "max_spread_points": 1.14,
+  "borrow_daily_min": 2.29,
+  "borrow_daily_max": 17.6,
+  "leverage_used": 7.4,
+  "mean_net_yield_points": 8.1,
+  "last_week_net_yield_points": 10.0,
+  "weeks_net_yield_below_zero": 2,
+  "weekly": [
+   {
+    "week_end": "2026-01-19",
+    "yield": 4.809,
+    "borrow": 4.386,
+    "debt_usd": 19597532
+   },
+   {
+    "week_end": "2026-01-26",
+    "yield": 4.657,
+    "borrow": 3.716,
+    "debt_usd": 21631523
+   },
+   {
+    "week_end": "2026-02-02",
+    "yield": 4.531,
+    "borrow": 3.58,
+    "debt_usd": 24898351
+   },
+   {
+    "week_end": "2026-02-09",
+    "yield": 3.993,
+    "borrow": 3.561,
+    "debt_usd": 32494875
+   },
+   {
+    "week_end": "2026-02-16",
+    "yield": 3.411,
+    "borrow": 3.28,
+    "debt_usd": 30884683
+   },
+   {
+    "week_end": "2026-02-23",
+    "yield": 3.737,
+    "borrow": 3.307,
+    "debt_usd": 37691271
+   },
+   {
+    "week_end": "2026-03-02",
+    "yield": 3.573,
+    "borrow": 2.922,
+    "debt_usd": 46038110
+   },
+   {
+    "week_end": "2026-03-09",
+    "yield": 3.492,
+    "borrow": 2.802,
+    "debt_usd": 109668725
+   },
+   {
+    "week_end": "2026-03-16",
+    "yield": 3.445,
+    "borrow": 2.534,
+    "debt_usd": 109729376
+   },
+   {
+    "week_end": "2026-03-23",
+    "yield": 3.461,
+    "borrow": 2.354,
+    "debt_usd": 102587892
+   },
+   {
+    "week_end": "2026-03-30",
+    "yield": 3.537,
+    "borrow": 2.402,
+    "debt_usd": 113657010
+   },
+   {
+    "week_end": "2026-04-06",
+    "yield": 3.536,
+    "borrow": 2.403,
+    "debt_usd": 152485848
+   },
+   {
+    "week_end": "2026-04-13",
+    "yield": 3.556,
+    "borrow": 2.414,
+    "debt_usd": 150831983
+   },
+   {
+    "week_end": "2026-04-20",
+    "yield": 3.761,
+    "borrow": 3.603,
+    "debt_usd": 159040917
+   },
+   {
+    "week_end": "2026-04-27",
+    "yield": 5.294,
+    "borrow": 4.565,
+    "debt_usd": 134385775
+   },
+   {
+    "week_end": "2026-05-04",
+    "yield": 4.136,
+    "borrow": 3.045,
+    "debt_usd": 132261393
+   },
+   {
+    "week_end": "2026-05-11",
+    "yield": 3.567,
+    "borrow": 2.717,
+    "debt_usd": 121181821
+   },
+   {
+    "week_end": "2026-05-18",
+    "yield": 4.096,
+    "borrow": 5.634,
+    "debt_usd": 87723731
+   },
+   {
+    "week_end": "2026-05-25",
+    "yield": 4.121,
+    "borrow": 3.671,
+    "debt_usd": 53491667
+   },
+   {
+    "week_end": "2026-06-01",
+    "yield": 3.759,
+    "borrow": 2.838,
+    "debt_usd": 47073863
+   },
+   {
+    "week_end": "2026-06-08",
+    "yield": 4.199,
+    "borrow": 3.074,
+    "debt_usd": 46025235
+   },
+   {
+    "week_end": "2026-06-15",
+    "yield": 3.998,
+    "borrow": 3.079,
+    "debt_usd": 37669223
+   },
+   {
+    "week_end": "2026-06-22",
+    "yield": 3.585,
+    "borrow": 3.15,
+    "debt_usd": 35552680
+   },
+   {
+    "week_end": "2026-06-29",
+    "yield": 3.687,
+    "borrow": 3.534,
+    "debt_usd": 37201156
+   },
+   {
+    "week_end": "2026-07-06",
+    "yield": 3.834,
+    "borrow": 3.491,
+    "debt_usd": 41198032
+   },
+   {
+    "week_end": "2026-07-13",
+    "yield": 3.983,
+    "borrow": 3.248,
+    "debt_usd": 39747641
+   },
+   {
+    "week_end": "2026-07-20",
+    "yield": 3.954,
+    "borrow": 3.248,
+    "debt_usd": 36238605
+   },
+   {
+    "week_end": "2026-07-27",
+    "yield": 4.069,
+    "borrow": 3.205,
+    "debt_usd": 31234543
+   },
+   {
+    "week_end": "2026-08-03",
+    "yield": 4.0,
+    "borrow": 3.409,
+    "debt_usd": 25272188
+   },
+   {
+    "week_end": "2026-08-10",
+    "yield": 4.01,
+    "borrow": 3.568,
+    "debt_usd": 21775744
+   },
+   {
+    "week_end": "2026-08-17",
+    "yield": 4.335,
+    "borrow": 3.432,
+    "debt_usd": 21441229
+   },
+   {
+    "week_end": "2026-08-24",
+    "yield": 4.403,
+    "borrow": 3.392,
+    "debt_usd": 31438163
+   },
+   {
+    "week_end": "2026-08-31",
+    "yield": 4.727,
+    "borrow": 4.66,
+    "debt_usd": 57180516
+   },
+   {
+    "week_end": "2026-09-07",
+    "yield": 4.626,
+    "borrow": 4.498,
+    "debt_usd": 73661174
+   },
+   {
+    "week_end": "2026-09-14",
+    "yield": 4.88,
+    "borrow": 4.631,
+    "debt_usd": 82468450
+   },
+   {
+    "week_end": "2026-09-21",
+    "yield": 4.816,
+    "borrow": 4.211,
+    "debt_usd": 92615661
+   },
+   {
+    "week_end": "2026-09-28",
+    "yield": 4.882,
+    "borrow": 4.208,
+    "debt_usd": 92426445
+   },
+   {
+    "week_end": "2026-10-05",
+    "yield": 5.123,
+    "borrow": 6.427,
+    "debt_usd": 91926938
+   },
+   {
+    "week_end": "2026-10-12",
+    "yield": 4.957,
+    "borrow": 4.19,
+    "debt_usd": 95171633
+   },
+   {
+    "week_end": "2026-10-19",
+    "yield": 4.89,
+    "borrow": 4.196,
+    "debt_usd": 98293078
+   },
+   {
+    "week_end": "2026-10-26",
+    "yield": 4.985,
+    "borrow": 4.146,
+    "debt_usd": 97577495
+   },
+   {
+    "week_end": "2026-11-02",
+    "yield": 5.088,
+    "borrow": 4.432,
+    "debt_usd": 100821921
+   },
+   {
+    "week_end": "2026-11-09",
+    "yield": 5.086,
+    "borrow": 4.283,
+    "debt_usd": 103070763
+   },
+   {
+    "week_end": "2026-11-16",
+    "yield": 5.161,
+    "borrow": 4.21,
+    "debt_usd": 102846145
+   },
+   {
+    "week_end": "2026-11-23",
+    "yield": 5.099,
+    "borrow": 4.326,
+    "debt_usd": 100926777
+   }
+  ]
+ },
+ "carry_aave_usdc": {
+  "weeks": 45,
+  "first_week_end": "2026-01-19",
+  "last_week_end": "2026-11-23",
+  "negative_weeks": 27,
+  "longest_negative_run": 9,
+  "days": 320,
+  "negative_days": 183,
+  "mean_spread_points": -0.33,
+  "min_spread_points": -7.0,
+  "mean_spread_points_weeks_above": 0.16,
+  "max_spread_points": 0.51,
+  "borrow_daily_min": 2.7,
+  "borrow_daily_max": 15.43,
+  "leverage_used": 7.4,
+  "mean_net_yield_points": 2.1,
+  "last_week_net_yield_points": 6.3,
+  "weeks_net_yield_below_zero": 7,
+  "weekly": [
+   {
+    "week_end": "2026-01-19",
+    "yield": 4.809,
+    "borrow": 4.707,
+    "debt_usd": 19597532
+   },
+   {
+    "week_end": "2026-01-26",
+    "yield": 4.657,
+    "borrow": 4.837,
+    "debt_usd": 21631523
+   },
+   {
+    "week_end": "2026-02-02",
+    "yield": 4.531,
+    "borrow": 5.11,
+    "debt_usd": 24898351
+   },
+   {
+    "week_end": "2026-02-09",
+    "yield": 3.993,
+    "borrow": 4.423,
+    "debt_usd": 32494875
+   },
+   {
+    "week_end": "2026-02-16",
+    "yield": 3.411,
+    "borrow": 3.821,
+    "debt_usd": 30884683
+   },
+   {
+    "week_end": "2026-02-23",
+    "yield": 3.737,
+    "borrow": 3.796,
+    "debt_usd": 37691271
+   },
+   {
+    "week_end": "2026-03-02",
+    "yield": 3.573,
+    "borrow": 3.574,
+    "debt_usd": 46038110
+   },
+   {
+    "week_end": "2026-03-09",
+    "yield": 3.492,
+    "borrow": 3.434,
+    "debt_usd": 109668725
+   },
+   {
+    "week_end": "2026-03-16",
+    "yield": 3.445,
+    "borrow": 2.93,
+    "debt_usd": 109729376
+   },
+   {
+    "week_end": "2026-03-23",
+    "yield": 3.461,
+    "borrow": 3.13,
+    "debt_usd": 102587892
+   },
+   {
+    "week_end": "2026-03-30",
+    "yield": 3.537,
+    "borrow": 3.299,
+    "debt_usd": 113657010
+   },
+   {
+    "week_end": "2026-04-06",
+    "yield": 3.536,
+    "borrow": 3.536,
+    "debt_usd": 152485848
+   },
+   {
+    "week_end": "2026-04-13",
+    "yield": 3.556,
+    "borrow": 3.499,
+    "debt_usd": 150831983
+   },
+   {
+    "week_end": "2026-04-20",
+    "yield": 3.761,
+    "borrow": 4.03,
+    "debt_usd": 159040917
+   },
+   {
+    "week_end": "2026-04-27",
+    "yield": 5.294,
+    "borrow": 12.297,
+    "debt_usd": 134385775
+   },
+   {
+    "week_end": "2026-05-04",
+    "yield": 4.136,
+    "borrow": 5.096,
+    "debt_usd": 132261393
+   },
+   {
+    "week_end": "2026-05-11",
+    "yield": 3.567,
+    "borrow": 4.629,
+    "debt_usd": 121181821
+   },
+   {
+    "week_end": "2026-05-18",
+    "yield": 4.096,
+    "borrow": 4.457,
+    "debt_usd": 87723731
+   },
+   {
+    "week_end": "2026-05-25",
+    "yield": 4.121,
+    "borrow": 5.021,
+    "debt_usd": 53491667
+   },
+   {
+    "week_end": "2026-06-01",
+    "yield": 3.759,
+    "borrow": 4.496,
+    "debt_usd": 47073863
+   },
+   {
+    "week_end": "2026-06-08",
+    "yield": 4.199,
+    "borrow": 4.18,
+    "debt_usd": 46025235
+   },
+   {
+    "week_end": "2026-06-15",
+    "yield": 3.998,
+    "borrow": 4.177,
+    "debt_usd": 37669223
+   },
+   {
+    "week_end": "2026-06-22",
+    "yield": 3.585,
+    "borrow": 4.073,
+    "debt_usd": 35552680
+   },
+   {
+    "week_end": "2026-06-29",
+    "yield": 3.687,
+    "borrow": 4.266,
+    "debt_usd": 37201156
+   },
+   {
+    "week_end": "2026-07-06",
+    "yield": 3.834,
+    "borrow": 4.913,
+    "debt_usd": 41198032
+   },
+   {
+    "week_end": "2026-07-13",
+    "yield": 3.983,
+    "borrow": 4.153,
+    "debt_usd": 39747641
+   },
+   {
+    "week_end": "2026-07-20",
+    "yield": 3.954,
+    "borrow": 4.283,
+    "debt_usd": 36238605
+   },
+   {
+    "week_end": "2026-07-27",
+    "yield": 4.069,
+    "borrow": 4.31,
+    "debt_usd": 31234543
+   },
+   {
+    "week_end": "2026-08-03",
+    "yield": 4.0,
+    "borrow": 4.3,
+    "debt_usd": 25272188
+   },
+   {
+    "week_end": "2026-08-10",
+    "yield": 4.01,
+    "borrow": 4.404,
+    "debt_usd": 21775744
+   },
+   {
+    "week_end": "2026-08-17",
+    "yield": 4.335,
+    "borrow": 4.326,
+    "debt_usd": 21441229
+   },
+   {
+    "week_end": "2026-08-24",
+    "yield": 4.403,
+    "borrow": 4.403,
+    "debt_usd": 31438163
+   },
+   {
+    "week_end": "2026-08-31",
+    "yield": 4.727,
+    "borrow": 4.489,
+    "debt_usd": 57180516
+   },
+   {
+    "week_end": "2026-09-07",
+    "yield": 4.626,
+    "borrow": 4.426,
+    "debt_usd": 73661174
+   },
+   {
+    "week_end": "2026-09-14",
+    "yield": 4.88,
+    "borrow": 4.66,
+    "debt_usd": 82468450
+   },
+   {
+    "week_end": "2026-09-21",
+    "yield": 4.816,
+    "borrow": 4.703,
+    "debt_usd": 92615661
+   },
+   {
+    "week_end": "2026-09-28",
+    "yield": 4.882,
+    "borrow": 4.801,
+    "debt_usd": 92426445
+   },
+   {
+    "week_end": "2026-10-05",
+    "yield": 5.123,
+    "borrow": 4.819,
+    "debt_usd": 91926938
+   },
+   {
+    "week_end": "2026-10-12",
+    "yield": 4.957,
+    "borrow": 5.331,
+    "debt_usd": 95171633
+   },
+   {
+    "week_end": "2026-10-19",
+    "yield": 4.89,
+    "borrow": 4.927,
+    "debt_usd": 98293078
+   },
+   {
+    "week_end": "2026-10-26",
+    "yield": 4.985,
+    "borrow": 4.857,
+    "debt_usd": 97577495
+   },
+   {
+    "week_end": "2026-11-02",
+    "yield": 5.088,
+    "borrow": 5.574,
+    "debt_usd": 100821921
+   },
+   {
+    "week_end": "2026-11-09",
+    "yield": 5.086,
+    "borrow": 5.089,
+    "debt_usd": 103070763
+   },
+   {
+    "week_end": "2026-11-16",
+    "yield": 5.161,
+    "borrow": 5.241,
+    "debt_usd": 102846145
+   },
+   {
+    "week_end": "2026-11-23",
+    "yield": 5.099,
+    "borrow": 4.917,
+    "debt_usd": 100926777
+   }
+  ]
+ },
+ "debt_path": {
+  "peak_musd": 162.7,
+  "peak_day": "2026-04-15",
+  "low_after_peak_musd": 20.7,
+  "low_day": "2026-08-15",
+  "largest_one_day_fall_musd": 44.7,
+  "largest_one_day_fall_day": "2026-03-13"
+ },
+ "carry_morpho_hourly": {
+  "weeks": 45,
+  "first_week_end": "2026-01-19",
+  "last_week_end": "2026-11-23",
+  "negative_weeks": 4,
+  "longest_negative_run": 1,
+  "days": 316,
+  "negative_days": 36,
+  "mean_spread_points": 0.62,
+  "min_spread_points": -0.58,
+  "mean_spread_points_weeks_above": 0.72,
+  "max_spread_points": 1.86,
+  "borrow_daily_min": 2.3,
+  "borrow_daily_max": 8.74,
+  "leverage_used": 7.4,
+  "mean_net_yield_points": 8.2,
+  "last_week_net_yield_points": 10.2,
+  "weeks_net_yield_below_zero": 0,
+  "weekly": [
+   {
+    "week_end": "2026-01-19",
+    "yield": 4.809,
+    "borrow": 4.174,
+    "debt_usd": 19597532
+   },
+   {
+    "week_end": "2026-01-26",
+    "yield": 4.657,
+    "borrow": 3.626,
+    "debt_usd": 21631523
+   },
+   {
+    "week_end": "2026-02-02",
+    "yield": 4.531,
+    "borrow": 3.947,
+    "debt_usd": 24898351
+   },
+   {
+    "week_end": "2026-02-09",
+    "yield": 3.993,
+    "borrow": 3.5,
+    "debt_usd": 32494875
+   },
+   {
+    "week_end": "2026-02-16",
+    "yield": 3.411,
+    "borrow": 3.347,
+    "debt_usd": 30884683
+   },
+   {
+    "week_end": "2026-02-23",
+    "yield": 3.737,
+    "borrow": 3.301,
+    "debt_usd": 37691271
+   },
+   {
+    "week_end": "2026-03-02",
+    "yield": 3.573,
+    "borrow": 2.871,
+    "debt_usd": 46038110
+   },
+   {
+    "week_end": "2026-03-09",
+    "yield": 3.492,
+    "borrow": 3.313,
+    "debt_usd": 109668725
+   },
+   {
+    "week_end": "2026-03-16",
+    "yield": 3.445,
+    "borrow": 2.487,
+    "debt_usd": 109729376
+   },
+   {
+    "week_end": "2026-03-23",
+    "yield": 3.461,
+    "borrow": 2.364,
+    "debt_usd": 102587892
+   },
+   {
+    "week_end": "2026-03-30",
+    "yield": 3.537,
+    "borrow": 2.401,
+    "debt_usd": 113657010
+   },
+   {
+    "week_end": "2026-04-06",
+    "yield": 3.536,
+    "borrow": 2.404,
+    "debt_usd": 152485848
+   },
+   {
+    "week_end": "2026-04-13",
+    "yield": 3.556,
+    "borrow": 2.56,
+    "debt_usd": 150831983
+   },
+   {
+    "week_end": "2026-04-20",
+    "yield": 3.761,
+    "borrow": 4.303,
+    "debt_usd": 159040917
+   },
+   {
+    "week_end": "2026-04-27",
+    "yield": 5.294,
+    "borrow": 3.434,
+    "debt_usd": 134385775
+   },
+   {
+    "week_end": "2026-05-04",
+    "yield": 4.136,
+    "borrow": 3.038,
+    "debt_usd": 132261393
+   },
+   {
+    "week_end": "2026-05-11",
+    "yield": 3.567,
+    "borrow": 3.051,
+    "debt_usd": 121181821
+   },
+   {
+    "week_end": "2026-05-18",
+    "yield": 4.096,
+    "borrow": 4.59,
+    "debt_usd": 87723731
+   },
+   {
+    "week_end": "2026-05-25",
+    "yield": 4.121,
+    "borrow": 3.482,
+    "debt_usd": 53491667
+   },
+   {
+    "week_end": "2026-06-01",
+    "yield": 3.759,
+    "borrow": 3.118,
+    "debt_usd": 47073863
+   },
+   {
+    "week_end": "2026-06-08",
+    "yield": 4.199,
+    "borrow": 3.242,
+    "debt_usd": 46025235
+   },
+   {
+    "week_end": "2026-06-15",
+    "yield": 3.998,
+    "borrow": 3.258,
+    "debt_usd": 37669223
+   },
+   {
+    "week_end": "2026-06-22",
+    "yield": 3.585,
+    "borrow": 3.148,
+    "debt_usd": 35552680
+   },
+   {
+    "week_end": "2026-06-29",
+    "yield": 3.687,
+    "borrow": 4.262,
+    "debt_usd": 37201156
+   },
+   {
+    "week_end": "2026-07-06",
+    "yield": 3.834,
+    "borrow": 3.381,
+    "debt_usd": 41198032
+   },
+   {
+    "week_end": "2026-07-13",
+    "yield": 3.983,
+    "borrow": 3.255,
+    "debt_usd": 39747641
+   },
+   {
+    "week_end": "2026-07-20",
+    "yield": 3.954,
+    "borrow": 3.256,
+    "debt_usd": 36238605
+   },
+   {
+    "week_end": "2026-07-27",
+    "yield": 4.069,
+    "borrow": 3.207,
+    "debt_usd": 31234543
+   },
+   {
+    "week_end": "2026-08-03",
+    "yield": 4.0,
+    "borrow": 3.462,
+    "debt_usd": 25272188
+   },
+   {
+    "week_end": "2026-08-10",
+    "yield": 4.01,
+    "borrow": 3.475,
+    "debt_usd": 21775744
+   },
+   {
+    "week_end": "2026-08-17",
+    "yield": 4.335,
+    "borrow": 3.441,
+    "debt_usd": 21441229
+   },
+   {
+    "week_end": "2026-08-24",
+    "yield": 4.403,
+    "borrow": 3.371,
+    "debt_usd": 31438163
+   },
+   {
+    "week_end": "2026-08-31",
+    "yield": 4.727,
+    "borrow": 4.762,
+    "debt_usd": 57180516
+   },
+   {
+    "week_end": "2026-09-07",
+    "yield": 4.626,
+    "borrow": 4.4,
+    "debt_usd": 73661174
+   },
+   {
+    "week_end": "2026-09-14",
+    "yield": 4.88,
+    "borrow": 4.797,
+    "debt_usd": 82468450
+   },
+   {
+    "week_end": "2026-09-21",
+    "yield": 4.816,
+    "borrow": 4.206,
+    "debt_usd": 92615661
+   },
+   {
+    "week_end": "2026-09-28",
+    "yield": 4.882,
+    "borrow": 4.124,
+    "debt_usd": 92426445
+   },
+   {
+    "week_end": "2026-10-05",
+    "yield": 5.123,
+    "borrow": 4.826,
+    "debt_usd": 91926938
+   },
+   {
+    "week_end": "2026-10-12",
+    "yield": 4.957,
+    "borrow": 4.215,
+    "debt_usd": 95171633
+   },
+   {
+    "week_end": "2026-10-19",
+    "yield": 4.89,
+    "borrow": 4.195,
+    "debt_usd": 98293078
+   },
+   {
+    "week_end": "2026-10-26",
+    "yield": 4.985,
+    "borrow": 4.144,
+    "debt_usd": 97577495
+   },
+   {
+    "week_end": "2026-11-02",
+    "yield": 5.088,
+    "borrow": 4.467,
+    "debt_usd": 100821921
+   },
+   {
+    "week_end": "2026-11-09",
+    "yield": 5.086,
+    "borrow": 4.32,
+    "debt_usd": 103070763
+   },
+   {
+    "week_end": "2026-11-16",
+    "yield": 5.161,
+    "borrow": 4.214,
+    "debt_usd": 102846145
+   },
+   {
+    "week_end": "2026-11-23",
+    "yield": 5.099,
+    "borrow": 4.301,
+    "debt_usd": 100926777
+   }
+  ]
+ },
+ "carry_morpho_hourly_by_week_start": [
+  {
+   "first_day": "2026-01-12",
+   "weeks": 45,
+   "weeks_below": 3
+  },
+  {
+   "first_day": "2026-01-13",
+   "weeks": 45,
+   "weeks_below": 4
+  },
+  {
+   "first_day": "2026-01-14",
+   "weeks": 44,
+   "weeks_below": 4
+  },
+  {
+   "first_day": "2026-01-15",
+   "weeks": 44,
+   "weeks_below": 5
+  },
+  {
+   "first_day": "2026-01-16",
+   "weeks": 44,
+   "weeks_below": 6
+  },
+  {
+   "first_day": "2026-01-17",
+   "weeks": 44,
+   "weeks_below": 5
+  },
+  {
+   "first_day": "2026-01-18",
+   "weeks": 44,
+   "weeks_below": 5
+  }
+ ],
+ "carry_during_debt_fall": {
+  "weeks": 18,
+  "negative_weeks": 1,
+  "negative_week_list": [
+   {
+    "week_end": "2026-05-18",
+    "yield": 4.1,
+    "borrow": 5.63,
+    "debt_change_musd": -56.3
+   }
+  ],
+  "mean_yield": 4.02,
+  "mean_borrow": 3.47,
+  "days": 124,
+  "days_borrow_above_yield": 12,
+  "days_borrow_above_10pct": 2,
+  "borrow_daily_max": 11.2,
+  "borrow_daily_max_day": "2026-05-12"
+ },
+ "carry_during_debt_fall_hourly": {
+  "weeks": 18,
+  "negative_weeks": 3,
+  "negative_week_list": [
+   {
+    "week_end": "2026-04-20",
+    "yield": 3.76,
+    "borrow": 4.3,
+    "debt_change_musd": 7.7
+   },
+   {
+    "week_end": "2026-05-18",
+    "yield": 4.1,
+    "borrow": 4.59,
+    "debt_change_musd": -56.3
+   },
+   {
+    "week_end": "2026-06-29",
+    "yield": 3.69,
+    "borrow": 4.26,
+    "debt_change_musd": 2.7
+   }
+  ],
+  "mean_yield": 4.02,
+  "mean_borrow": 3.47,
+  "days": 124,
+  "days_borrow_above_yield": 17,
+  "days_borrow_above_10pct": 0,
+  "borrow_daily_max": 8.7,
+  "borrow_daily_max_day": "2026-04-20"
+ },
+ "exits_whole_life": {
+  "first_month": "2026-01",
+  "last_month": "2026-11",
+  "withdrawal_txs": 636,
+  "susde_withdrawn_m": 392.2,
+  "withdrawn_musd_at_todays_rate": 494,
+  "pyusd_repaid_same_tx_m": 347.8,
+  "share_with_repay_same_tx": 0.842,
+  "share_with_dex_sale_same_tx": 0.018,
+  "share_with_unstake_request_same_tx": 0.0,
+  "share_with_supply_to_other_morpho_market_same_tx": 0.0,
+  "txs_over_4m_susde": 21,
+  "susde_in_txs_over_4m_m": 140.3,
+  "share_in_txs_over_4m": 0.36,
+  "over_4m_with_dex_sale_m": 0,
+  "four_million_susde_in_musd": 5.0,
+  "liquidations": 1
+ },
+ "exits_90d": {
+  "withdrawal_txs": 130,
+  "share_with_repay_same_tx": 0.956,
+  "share_with_dex_sale_same_tx": 0.024
+ },
+ "exit_paths": {
+  "receivers": 101,
+  "withdrawn_m": 392.26,
+  "share_unstake_started_within_1d": 0.34,
+  "share_unstake_started_within_3d": 0.4,
+  "share_unstake_started_within_3d_strict": 0.33,
+  "share_unstake_started_within_1d_strict": 0.31,
+  "share_unstake_started_within_7d": 0.42,
+  "share_unstake_started_any_later": 0.66,
+  "receivers_with_unstake_within_3d": 40,
+  "share_of_ten_largest_receivers": 0.8
+ },
+ "receivers_check": {
+  "receivers": 101,
+  "receivers_that_are_contracts": 14,
+  "share_withdrawn_to_contracts": 0.12,
+  "contracts_unstake_within_3d_m": 0,
+  "share_of_contract_receipts_sent_on_within_3d": 0.94,
+  "share_sent_on_within_3d_upper_bound": 0.69,
+  "usde_claimed_m": 552.6,
+  "receivers_with_claim": 61,
+  "share_of_claimed_usde_sold_on_dex_within_3d": 0.3,
+  "receivers_selling_usde_within_3d": 48
+ },
+ "receivers_sales": {
+  "share_sold_dex_within_3d": 0.047,
+  "share_sold_dex_within_3d_strict": 0.042,
+  "share_sold_dex_or_cow_within_3d": 0.057,
+  "share_sold_dex_or_cow_within_3d_strict": 0.052,
+  "share_sold_dex_or_cow_within_7d": 0.059,
+  "share_sold_dex_or_cow_any_later": 0.089,
+  "receivers_selling_within_3d": 41,
+  "receivers_selling_on_cow_within_3d": 3,
+  "share_unstake_started_within_3d": 0.4,
+  "share_unstake_started_within_3d_strict": 0.33
+ },
+ "debt_fall": {
+  "debt_peak_m": 161.4,
+  "debt_low_m": 20.6,
+  "addresses_with_debt_at_peak": 22,
+  "addresses_with_debt_at_low": 7,
+  "gross_fall_m": 162.5,
+  "gross_rise_m": 20.6,
+  "share_of_fall_three_largest": 0.83,
+  "share_of_fall_ten_largest": 0.99,
+  "fall_ten_largest_m": 161.0,
+  "net_fall_m": 141.9,
+  "addresses_falling_over_1m": 10,
+  "of_which_closed": 10,
+  "ten_largest_under_5pct_left": 10,
+  "liquidated_m": 0.788,
+  "share_of_fall_liquidated": 0.005,
+  "largest_week_three_largest": "2026-04-20",
+  "largest_week_three_largest_change_m": -45.8,
+  "of_ten_with_unstake_in_window": 8,
+  "share_of_ten_fall_matched_by_usde_unstaked": 0.75,
+  "of_ten_with_borrow_in_another_morpho_market": 6,
+  "of_ten_with_borrow_on_aave_v3": 4,
+  "of_ten_that_came_back": 1
+ },
+ "repayment_source": {
+  "repayments_over_1m": 91,
+  "repaid_over_1m_m": 296.3,
+  "share_of_all_repayments": 0.72,
+  "with_flash_loan_swap_or_borrow_same_tx": 0,
+  "share_bought_on_dex_before": 0.423,
+  "share_bought_on_dex_paying_usds": 0.371,
+  "share_minted_to_payer": 0.123,
+  "share_received_with_a_borrow": 0.087,
+  "share_from_labelled_exchange": 0,
+  "share_from_address_active_in_market": 0.113,
+  "share_from_unlabelled_contract": 0.13,
+  "share_from_unlabelled_wallet": 0.116,
+  "share_not_covered_by_inflows_24h": 0.007,
+  "share_covered_by_inflows_24h": 0.993,
+  "mints_to_payers": 7,
+  "mint_payer_addresses": 2,
+  "mints_by_direct_call_to_the_token": 0,
+  "recipients_of_the_same_mint_senders": 3043
+ },
+ "repayment_timing": {
+  "positions_with_repayment_and_unstake": 63,
+  "positions_with_repayment": 103,
+  "repayments": 442,
+  "repaid_m": 353.9,
+  "share_request_within_1h_after": 0.312,
+  "share_request_within_24h_after": 0.498,
+  "share_request_within_3d_after": 0.564,
+  "share_usde_ready_within_24h_before": 0.27,
+  "share_usde_ready_within_3d_before": 0.371,
+  "share_with_request_pending_at_repayment": 0.051,
+  "share_both_3d": 0.284,
+  "share_only_usde_ready_before_3d": 0.088,
+  "share_only_request_after_3d": 0.28,
+  "share_neither_3d": 0.349,
+  "median_hours_to_next_request_by_value": 1.62,
+  "median_hours_since_usde_ready_by_value": 12.83,
+  "share_request_in_same_tx": 0,
+  "share_of_all_repayments": 0.86,
+  "share_of_all_repaid_usde_ready_before_and_request_after_3d": 0.24,
+  "share_of_all_repaid_with_request_within_24h_after": 0.43
+ },
+ "liquidation_distance": {
+  "feed_ratio_lowest": 0.9945,
+  "feed_ratio_lowest_day": "2026-10-30",
+  "feed_ratio_largest_drawdown": 0.00598,
+  "feed_ratio_updates": 734,
+  "feed_days_ratio_below_099": 0,
+  "dates_with_debt_over_lltv": 0,
+  "latest_day": "2026-11-22",
+  "latest_price_fall_to_liquidation": 0.053,
+  "latest_debt_share_liquidatable_after_largest_drawdown": 0,
+  "latest_debt_share_liquidatable_after_fall_2pct": 0.033,
+  "latest_debt_share_liquidatable_after_fall_5pct": 0.414,
+  "smallest_price_fall_to_liquidation": 0.038,
+  "smallest_price_fall_day": "2026-08-15",
+  "by_date": [
+   {
+    "day": "2026-03-15",
+    "positions_over_10k": 7,
+    "debt_m": 95.6,
+    "market_debt_m": 95.6,
+    "collateral_value_m": 112.4,
+    "susde_rate": 1.2238,
+    "usde_feed": 1.00013,
+    "pyusd_feed": 0.99995,
+    "ltv_debt_weighted": 0.853,
+    "price_fall_to_liquidation_debt_weighted": 0.067,
+    "debt_share_within_2_points": null,
+    "debt_share_within_5_points": 0.868,
+    "debt_share_liquidatable_after_fall_0_6pct": 0,
+    "debt_share_liquidatable_after_fall_1pct": 0,
+    "debt_share_liquidatable_after_fall_2pct": 0,
+    "debt_share_liquidatable_after_fall_3pct": 0,
+    "debt_share_liquidatable_after_fall_5pct": 0.074,
+    "debt_share_over_lltv": 0
+   },
+   {
+    "day": "2026-04-15",
+    "positions_over_10k": 22,
+    "debt_m": 161.8,
+    "market_debt_m": 161.9,
+    "collateral_value_m": 190.7,
+    "susde_rate": 1.2274,
+    "usde_feed": 1.00019,
+    "pyusd_feed": 0.99995,
+    "ltv_debt_weighted": 0.851,
+    "price_fall_to_liquidation_debt_weighted": 0.07,
+    "debt_share_within_2_points": 0.003,
+    "debt_share_within_5_points": 0.646,
+    "debt_share_liquidatable_after_fall_0_6pct": 0,
+    "debt_share_liquidatable_after_fall_1pct": 0,
+    "debt_share_liquidatable_after_fall_2pct": 0,
+    "debt_share_liquidatable_after_fall_3pct": 0.003,
+    "debt_share_liquidatable_after_fall_5pct": 0.257,
+    "debt_share_over_lltv": 0
+   },
+   {
+    "day": "2026-04-18",
+    "positions_over_10k": 21,
+    "debt_m": 157.8,
+    "market_debt_m": 157.9,
+    "collateral_value_m": 186.1,
+    "susde_rate": 1.2278,
+    "usde_feed": 0.99999,
+    "pyusd_feed": 1.00002,
+    "ltv_debt_weighted": 0.851,
+    "price_fall_to_liquidation_debt_weighted": 0.07,
+    "debt_share_within_2_points": 0.003,
+    "debt_share_within_5_points": 0.637,
+    "debt_share_liquidatable_after_fall_0_6pct": 0,
+    "debt_share_liquidatable_after_fall_1pct": 0,
+    "debt_share_liquidatable_after_fall_2pct": 0,
+    "debt_share_liquidatable_after_fall_3pct": 0.003,
+    "debt_share_liquidatable_after_fall_5pct": 0.238,
+    "debt_share_over_lltv": 0
+   },
+   {
+    "day": "2026-04-21",
+    "positions_over_10k": 16,
+    "debt_m": 134.7,
+    "market_debt_m": 134.7,
+    "collateral_value_m": 156.9,
+    "susde_rate": 1.2282,
+    "usde_feed": 0.99938,
+    "pyusd_feed": 0.99994,
+    "ltv_debt_weighted": 0.859,
+    "price_fall_to_liquidation_debt_weighted": 0.061,
+    "debt_share_within_2_points": 0,
+    "debt_share_within_5_points": 0.468,
+    "debt_share_liquidatable_after_fall_0_6pct": 0,
+    "debt_share_liquidatable_after_fall_1pct": 0,
+    "debt_share_liquidatable_after_fall_2pct": 0,
+    "debt_share_liquidatable_after_fall_3pct": 0,
+    "debt_share_liquidatable_after_fall_5pct": 0.443,
+    "debt_share_over_lltv": 0
+   },
+   {
+    "day": "2026-08-15",
+    "positions_over_10k": 7,
+    "debt_m": 20.7,
+    "market_debt_m": 20.7,
+    "collateral_value_m": 23.5,
+    "susde_rate": 1.2435,
+    "usde_feed": 0.99988,
+    "pyusd_feed": 0.99999,
+    "ltv_debt_weighted": 0.881,
+    "price_fall_to_liquidation_debt_weighted": 0.038,
+    "debt_share_within_2_points": 0.291,
+    "debt_share_within_5_points": 0.766,
+    "debt_share_liquidatable_after_fall_0_6pct": 0,
+    "debt_share_liquidatable_after_fall_1pct": 0,
+    "debt_share_liquidatable_after_fall_2pct": 0.291,
+    "debt_share_liquidatable_after_fall_3pct": 0.536,
+    "debt_share_liquidatable_after_fall_5pct": 0.766,
+    "debt_share_over_lltv": 0
+   },
+   {
+    "day": "2026-10-30",
+    "positions_over_10k": 21,
+    "debt_m": 102.4,
+    "market_debt_m": 102.4,
+    "collateral_value_m": 117.6,
+    "susde_rate": 1.2557,
+    "usde_feed": 0.99445,
+    "pyusd_feed": 0.99995,
+    "ltv_debt_weighted": 0.871,
+    "price_fall_to_liquidation_debt_weighted": 0.048,
+    "debt_share_within_2_points": 0.02,
+    "debt_share_within_5_points": 0.703,
+    "debt_share_liquidatable_after_fall_0_6pct": 0,
+    "debt_share_liquidatable_after_fall_1pct": 0.004,
+    "debt_share_liquidatable_after_fall_2pct": 0.02,
+    "debt_share_liquidatable_after_fall_3pct": 0.061,
+    "debt_share_liquidatable_after_fall_5pct": 0.594,
+    "debt_share_over_lltv": 0
+   },
+   {
+    "day": "2026-11-22",
+    "positions_over_10k": 21,
+    "debt_m": 98.4,
+    "market_debt_m": 98.5,
+    "collateral_value_m": 113.7,
+    "susde_rate": 1.2597,
+    "usde_feed": 0.99926,
+    "pyusd_feed": 0.99987,
+    "ltv_debt_weighted": 0.866,
+    "price_fall_to_liquidation_debt_weighted": 0.053,
+    "debt_share_within_2_points": 0.033,
+    "debt_share_within_5_points": 0.578,
+    "debt_share_liquidatable_after_fall_0_6pct": 0,
+    "debt_share_liquidatable_after_fall_1pct": 0,
+    "debt_share_liquidatable_after_fall_2pct": 0.033,
+    "debt_share_liquidatable_after_fall_3pct": 0.033,
+    "debt_share_liquidatable_after_fall_5pct": 0.414,
+    "debt_share_over_lltv": 0
+   }
+  ]
+ },
+ "repayments_around_2026_04_18": {
+  "reference_time_utc": "2026-04-18 17:35",
+  "ten_repaid_30d_before_m": 11.1,
+  "ten_repaid_6d_before_m": 0,
+  "ten_repaid_24h_after_m": 9.9,
+  "ten_repaid_3d_after_m": 54.1,
+  "ten_repaid_6d_after_m": 81.0,
+  "ten_borrowed_6d_before_m": 18.7,
+  "ten_borrowed_6d_after_m": 34.7,
+  "hours_to_first_repayment_over_1m_by_the_ten": 3.7,
+  "of_the_ten_repaying_over_1m_within_3d": 6,
+  "of_the_ten_repaying_over_1m_within_6d": 6,
+  "others_net_change_6d_before_m": -1.5,
+  "others_net_change_6d_after_m": 16.3,
+  "market_net_change_6d_before_m": 17.2,
+  "market_net_change_6d_after_m": -30.0,
+  "ten_largest_6d_block_repaid_before_m": 11.1
+ },
+ "repayments_around_three_dates": [
+  {
+   "reference_time_utc": "2026-03-11 00:00",
+   "ten_repaid_6d_before_m": 0,
+   "ten_repaid_24h_after_m": 0,
+   "ten_repaid_3d_after_m": 0,
+   "ten_repaid_6d_after_m": 0,
+   "ten_borrowed_6d_before_m": 16.3,
+   "ten_borrowed_6d_after_m": 5,
+   "of_the_ten_repaying_over_1m_within_6d": 0,
+   "others_repaid_6d_after_m": 44.8,
+   "market_net_change_6d_before_m": 16.3,
+   "market_net_change_6d_after_m": -38.8
+  },
+  {
+   "reference_time_utc": "2026-04-18 17:35",
+   "ten_repaid_6d_before_m": 0,
+   "ten_repaid_24h_after_m": 9.9,
+   "ten_repaid_3d_after_m": 54.1,
+   "ten_repaid_6d_after_m": 81,
+   "ten_borrowed_6d_before_m": 18.7,
+   "ten_borrowed_6d_after_m": 34.7,
+   "of_the_ten_repaying_over_1m_within_6d": 6,
+   "others_repaid_6d_after_m": 12.1,
+   "market_net_change_6d_before_m": 17.2,
+   "market_net_change_6d_after_m": -30
+  },
+  {
+   "reference_time_utc": "2026-05-12 00:00",
+   "ten_repaid_6d_before_m": 3.8,
+   "ten_repaid_24h_after_m": 9.7,
+   "ten_repaid_3d_after_m": 17.4,
+   "ten_repaid_6d_after_m": 41.2,
+   "ten_borrowed_6d_before_m": 0,
+   "ten_borrowed_6d_after_m": 1.5,
+   "of_the_ten_repaying_over_1m_within_6d": 3,
+   "others_repaid_6d_after_m": 15.6,
+   "market_net_change_6d_before_m": -2.2,
+   "market_net_change_6d_after_m": -55.1
+  }
+ ],
+ "lender_side": {
+  "largest_falls_7d": [
+   {
+    "from": "2026-05-12",
+    "to": "2026-05-19",
+    "fall_musd": 57.8,
+    "utilization_passed_99pct": true
+   },
+   {
+    "from": "2026-03-11",
+    "to": "2026-03-18",
+    "fall_musd": 38.6,
+    "utilization_passed_99pct": false
+   },
+   {
+    "from": "2026-04-18",
+    "to": "2026-04-25",
+    "fall_musd": 29.9,
+    "utilization_passed_99pct": true
+   }
+  ],
+  "falls_with_squeeze": 2,
+  "supply_drop_min_musd": 18.1,
+  "supply_drop_max_musd": 24.2,
+  "borrow_rate_before_max": 2.62,
+  "borrow_rate_after_min": 10.01,
+  "yield_min": 3.67,
+  "yield_max": 3.78,
+  "utilization_peak": 1,
+  "windows": [
+   {
+    "first_day": "2026-03-09",
+    "utilization_peak": 0.898,
+    "utilization_peak_pct": 89.805,
+    "hours_above_90pct": 0,
+    "borrow_rate_hourly_max": 2.9,
+    "hours": 241,
+    "hours_borrow_rate_above_10pct": 0,
+    "interest_in_those_hours_bp_of_debt": 0.0,
+    "supply_moves_over_10m": [
+     {
+      "hour_utc": "2026-03-12 08:00",
+      "change_musd": -15.6
+     }
+    ],
+    "supply_withdrawn_in_those_moves_musd": 15.6,
+    "largest_hourly_debt_fall": {
+     "hour_utc": "2026-03-12 07:00",
+     "change_musd": -17.9
+    },
+    "largest_hourly_supply_fall": {
+     "hour_utc": "2026-03-12 08:00",
+     "change_musd": -15.6
+    }
+   },
+   {
+    "first_day": "2026-04-16",
+    "utilization_peak": 1,
+    "utilization_peak_pct": 100,
+    "hours_above_90pct": 92,
+    "borrow_rate_hourly_max": 11.6,
+    "first_hour_above_99pct_utc": "2026-04-18 21:00",
+    "supply_drop_in_2h_musd": 18.1,
+    "debt_change_in_2h_musd": 0.1,
+    "idle_before_musd": 18.15,
+    "idle_after_musd": 0.0,
+    "utilization_at_that_hour_pct": 100,
+    "borrow_rate_before": 2.41,
+    "borrow_rate_after": 10.01,
+    "susde_yield_that_day": 3.67,
+    "hours_to_first_debt_fall_over_1m": 1,
+    "hours": 265,
+    "hours_borrow_rate_above_10pct": 25,
+    "interest_in_those_hours_bp_of_debt": 3.1,
+    "supply_moves_over_10m": [
+     {
+      "hour_utc": "2026-04-18 21:00",
+      "change_musd": -18.1
+     },
+     {
+      "hour_utc": "2026-04-19 17:00",
+      "change_musd": 11.6
+     },
+     {
+      "hour_utc": "2026-04-20 04:00",
+      "change_musd": -16.8
+     }
+    ],
+    "supply_withdrawn_in_those_moves_musd": 34.9,
+    "largest_hourly_debt_fall": {
+     "hour_utc": "2026-04-21 14:00",
+     "change_musd": -16.2
+    },
+    "largest_hourly_supply_fall": {
+     "hour_utc": "2026-04-18 21:00",
+     "change_musd": -18.1
+    }
+   },
+   {
+    "first_day": "2026-05-09",
+    "utilization_peak": 1.0,
+    "utilization_peak_pct": 99.997,
+    "hours_above_90pct": 60,
+    "borrow_rate_hourly_max": 13.3,
+    "first_hour_above_99pct_utc": "2026-05-11 17:00",
+    "supply_drop_in_2h_musd": 24.2,
+    "debt_change_in_2h_musd": -0.6,
+    "idle_before_musd": 23.99,
+    "idle_after_musd": 0.4,
+    "utilization_at_that_hour_pct": 99.66,
+    "borrow_rate_before": 2.62,
+    "borrow_rate_after": 11.26,
+    "susde_yield_that_day": 3.78,
+    "hours_to_first_debt_fall_over_1m": 13,
+    "hours": 265,
+    "hours_borrow_rate_above_10pct": 23,
+    "interest_in_those_hours_bp_of_debt": 2.9,
+    "supply_moves_over_10m": [
+     {
+      "hour_utc": "2026-05-11 17:00",
+      "change_musd": -18.3
+     },
+     {
+      "hour_utc": "2026-05-12 16:00",
+      "change_musd": -12.7
+     },
+     {
+      "hour_utc": "2026-05-14 16:00",
+      "change_musd": -15.2
+     }
+    ],
+    "supply_withdrawn_in_those_moves_musd": 46.2,
+    "largest_hourly_debt_fall": {
+     "hour_utc": "2026-05-17 14:00",
+     "change_musd": -7.2
+    },
+    "largest_hourly_supply_fall": {
+     "hour_utc": "2026-05-11 17:00",
+     "change_musd": -18.3
+    }
+   }
+  ]
+ },
+ "supply_withdrawers": {
+  "windows": [
+   {
+    "label": "2026-04-18 20:00-21:00",
+    "withdrawing_suppliers": 1,
+    "of_which_metamorpho_vaults": 1,
+    "withdrawn_m": 18.15,
+    "largest_withdrawer_m": 18.15,
+    "supplied_in_window_m": 0,
+    "curators": 1
+   },
+   {
+    "label": "2026-05-11 15:00-17:00",
+    "withdrawing_suppliers": 2,
+    "of_which_metamorpho_vaults": 2,
+    "withdrawn_m": 24.2,
+    "largest_withdrawer_m": 18.27,
+    "supplied_in_window_m": 0,
+    "curators": 1
+   }
+  ],
+  "distinct_vaults_both_windows": 2,
+  "distinct_curators_both_windows": 1
+ },
+ "incentives": {
+  "source": "Morpho API, daily netBorrowApy against borrowApy and netSupplyApy against supplyApy, 12 January to 23 November 2026",
+  "fetched": "2026-11-24",
+  "days": 317,
+  "days_borrow_side_incentive": 0,
+  "days_supply_side_incentive": 59,
+  "supply_incentive_first_day": "2026-02-01",
+  "supply_incentive_last_day": "2026-03-31",
+  "supply_incentive_mean_points": 0.35,
+  "supply_incentive_max_points": 0.53,
+  "rewards_listed_today": 0
+ },
+ "aave_usdc_borrow_rate": {
+  "april": {
+   "first_day": "2026-04-18",
+   "last_day": "2026-04-25",
+   "min": 3.6,
+   "min_day": "2026-04-18",
+   "max": 15.4,
+   "max_day": "2026-04-23"
+  },
+  "may": {
+   "first_day": "2026-05-09",
+   "last_day": "2026-05-20",
+   "min": 3.9,
+   "min_day": "2026-05-12",
+   "max": 5.0,
+   "max_day": "2026-05-11"
+  }
+ },
+ "stress": {
+  "days": 419,
+  "first_day": "2025-10-01",
+  "last_day": "2026-11-23",
+  "susde_days_with_data": 234,
+  "susde_days_with_data_before_2026_04": 19,
+  "susde_worst_hour_bp": 72.4,
+  "susde_worst_day": "2025-10-11",
+  "susde_hours_over_50bp": 1,
+  "susde_worst_hour_bp_apr_to_aug_2026": 8.3,
+  "susde_days_with_data_apr_to_aug_2026": 153,
+  "usde_worst_hour_bp": 37.7,
+  "usde_worst_day": "2025-11-04",
+  "usde_hours_over_50bp": 0,
+  "usde_days_with_tail_over_100bp": 41
+ },
+ "cooldown_changes": [
+  {
+   "evt_block_time": "2023-11-20 22:16:11 UTC",
+   "previous_days": 90.0,
+   "new_days": 7.0
+  },
+  {
+   "evt_block_time": "2026-03-16 11:37:47 UTC",
+   "previous_days": 7.0,
+   "new_days": 1.0
+  }
+ ],
+ "unstake_wait": {
+  "source": "sUSDe contract 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497, read on chain with cast call",
+  "read_on": "2026-11-23",
+  "max_days": 90,
+  "current_days": 1,
+  "max_constant": "MAX_COOLDOWN_DURATION",
+  "current_function": "cooldownDuration"
+ },
+ "dex_volume_90d": {
+  "days": 90,
+  "median_daily_m": 5.94,
+  "mean_daily_m": 7.93,
+  "max_daily_m": 27.2,
+  "median_daily_sold_m": 3.1,
+  "max_daily_sold_m": 14.37,
+  "total_m": 714.1
+ },
+ "unstake_only_exit_days_model": {
+  "ltv_0.865_gap_0.01": 12,
+  "ltv_0.865_gap_0.02": 13,
+  "ltv_0.88_gap_0.01": 15,
+  "ltv_0.88_gap_0.02": 18,
+  "ltv_0.9_gap_0.01": 30,
+  "ltv_0.9_gap_0.02": null
+ }
+}

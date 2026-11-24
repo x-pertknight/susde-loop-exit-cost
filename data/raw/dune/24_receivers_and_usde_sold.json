@@ -1,0 +1,21 @@
+{
+ "query_id": 9186195,
+ "run_at": "2026-11-24",
+ "unit": "millions of sUSDe or USDe and counts of addresses",
+ "rows": [
+  {
+   "receivers": 101,
+   "receivers_that_are_contracts": 14,
+   "withdrawn_m": 392.3,
+   "withdrawn_to_contracts_m": 46.7,
+   "contracts_unstake_within_3d_m": 0,
+   "wallets_unstake_within_3d_m": 157.9,
+   "forwarded_within_3d_m": 271.0,
+   "contracts_forwarded_within_3d_m": 43.8,
+   "usde_claimed_m": 552.6,
+   "receivers_with_claim": 61,
+   "usde_sold_on_dex_within_3d_of_claim_m": 167.9,
+   "receivers_selling_usde_within_3d": 48
+  }
+ ]
+}

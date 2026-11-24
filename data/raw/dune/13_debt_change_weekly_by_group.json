@@ -1,0 +1,203 @@
+{
+ "query_id": 9179887,
+ "run_at": "2026-11-23",
+ "unit": "millions of PYUSD per week (week starts Monday); null = no event",
+ "rows": [
+  {
+   "week": "2026-03-02",
+   "net_change_three_largest_fallers_m": 46.6,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 16.4,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-03-09",
+   "net_change_three_largest_fallers_m": 15.4,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": -43.8,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-03-16",
+   "net_change_three_largest_fallers_m": 13,
+   "net_change_next_seven_m": 2.2,
+   "net_change_all_others_m": -0.8,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-03-23",
+   "net_change_three_largest_fallers_m": 6.4,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 0,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-03-30",
+   "net_change_three_largest_fallers_m": 31.5,
+   "net_change_next_seven_m": 11.1,
+   "net_change_all_others_m": 0.3,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-04-06",
+   "net_change_three_largest_fallers_m": 0.1,
+   "net_change_next_seven_m": -11.1,
+   "net_change_all_others_m": -4.4,
+   "of_the_ten_repaying_over_1m": 1
+  },
+  {
+   "week": "2026-04-13",
+   "net_change_three_largest_fallers_m": 7.4,
+   "net_change_next_seven_m": 1.4,
+   "net_change_all_others_m": -1.2,
+   "of_the_ten_repaying_over_1m": 2
+  },
+  {
+   "week": "2026-04-20",
+   "net_change_three_largest_fallers_m": -45.8,
+   "net_change_next_seven_m": 9.5,
+   "net_change_all_others_m": 17.2,
+   "of_the_ten_repaying_over_1m": 6
+  },
+  {
+   "week": "2026-04-27",
+   "net_change_three_largest_fallers_m": -9.5,
+   "net_change_next_seven_m": -3.5,
+   "net_change_all_others_m": 5,
+   "of_the_ten_repaying_over_1m": 2
+  },
+  {
+   "week": "2026-05-04",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": -6.5,
+   "net_change_all_others_m": 1.5,
+   "of_the_ten_repaying_over_1m": 1
+  },
+  {
+   "week": "2026-05-11",
+   "net_change_three_largest_fallers_m": -29.8,
+   "net_change_next_seven_m": -10.5,
+   "net_change_all_others_m": -16.1,
+   "of_the_ten_repaying_over_1m": 3
+  },
+  {
+   "week": "2026-05-18",
+   "net_change_three_largest_fallers_m": -15.5,
+   "net_change_next_seven_m": -3.8,
+   "net_change_all_others_m": 4.1,
+   "of_the_ten_repaying_over_1m": 3
+  },
+  {
+   "week": "2026-05-25",
+   "net_change_three_largest_fallers_m": -5.4,
+   "net_change_next_seven_m": 2.5,
+   "net_change_all_others_m": 1.7,
+   "of_the_ten_repaying_over_1m": 1
+  },
+  {
+   "week": "2026-06-01",
+   "net_change_three_largest_fallers_m": -8.2,
+   "net_change_next_seven_m": 0.6,
+   "net_change_all_others_m": 1.7,
+   "of_the_ten_repaying_over_1m": 2
+  },
+  {
+   "week": "2026-06-08",
+   "net_change_three_largest_fallers_m": -8.2,
+   "net_change_next_seven_m": -3,
+   "net_change_all_others_m": 5.6,
+   "of_the_ten_repaying_over_1m": 2
+  },
+  {
+   "week": "2026-06-15",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": -0.3,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-06-22",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 2.6,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-06-29",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 5.4,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-07-06",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": -1.4,
+   "net_change_all_others_m": -5,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-07-13",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": -1.2,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-07-20",
+   "net_change_three_largest_fallers_m": -2.7,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": -4.4,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-07-27",
+   "net_change_three_largest_fallers_m": -6.7,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 0.3,
+   "of_the_ten_repaying_over_1m": 1
+  },
+  {
+   "week": "2026-08-03",
+   "net_change_three_largest_fallers_m": -3.1,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 2.6,
+   "of_the_ten_repaying_over_1m": 1
+  },
+  {
+   "week": "2026-08-10",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": -1.4,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-08-17",
+   "net_change_three_largest_fallers_m": 5.5,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 20.3,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-08-24",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 23.7,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-08-31",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 9.5,
+   "of_the_ten_repaying_over_1m": 0
+  },
+  {
+   "week": "2026-09-07",
+   "net_change_three_largest_fallers_m": null,
+   "net_change_next_seven_m": null,
+   "net_change_all_others_m": 6,
+   "of_the_ten_repaying_over_1m": 0
+  }
+ ]
+}

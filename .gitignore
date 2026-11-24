@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+STATUS.md
+drafts/
+# position rows: with this few positions a row is one holder. See README, "Who is in the market".
+data/raw/morpho_positions.json
+scripts/build_preview.py
+
+# 24 Nov 2026: unlabelled contract addresses from one Dune run, not read by code/analyze.py
+data/raw/dune/18_pyusd_mints_by_contract.json
+
+# the LinkedIn post and its first comment are not part of the repository
+post.md
+post_comment.md

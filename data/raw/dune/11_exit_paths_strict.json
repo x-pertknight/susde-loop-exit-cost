@@ -1,0 +1,12 @@
+{
+ "query_id": 9186163,
+ "run_at": "2026-11-24",
+ "unit": "millions of sUSDe",
+ "rows": [
+  {
+   "withdrawn_m": 392.26,
+   "matched_within_1d_capped_per_day_m": 123.33,
+   "matched_within_3d_capped_per_day_m": 127.57
+  }
+ ]
+}

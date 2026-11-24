@@ -1,0 +1,1059 @@
+{
+ "taken_at_unix": 1795468962,
+ "unstake_rate_usde_per_susde": 1.2598293108501035,
+ "quotes": [
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 100000.0,
+   "source": "paraswap",
+   "sell_amount": "79375832216923363344384",
+   "buy_amount": 99947.683572,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 100000.0,
+   "source": "cow",
+   "sell_amount": "79375832216923363344384",
+   "buy_amount": 99953.670636,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 100000.0,
+   "source": "kyber",
+   "sell_amount": "79375832216923363344384",
+   "buy_amount": 99967.966671,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 500000.0,
+   "source": "paraswap",
+   "sell_amount": "396879161084616816721920",
+   "buy_amount": 499620.268889,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 500000.0,
+   "source": "cow",
+   "sell_amount": "396879161084616816721920",
+   "buy_amount": 499698.873607,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 500000.0,
+   "source": "kyber",
+   "sell_amount": "396879161084616816721920",
+   "buy_amount": 499699.912924,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 1000000.0,
+   "source": "paraswap",
+   "sell_amount": "793758322169233633443840",
+   "buy_amount": 999065.053702,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 1000000.0,
+   "source": "cow",
+   "sell_amount": "793758322169233633443840",
+   "buy_amount": 999258.680471,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 1000000.0,
+   "source": "kyber",
+   "sell_amount": "793758322169233633443840",
+   "buy_amount": 999225.860757,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 2000000.0,
+   "source": "paraswap",
+   "sell_amount": "1587516644338467266887680",
+   "buy_amount": 1997533.546087,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 2000000.0,
+   "source": "cow",
+   "sell_amount": "1587516644338467266887680",
+   "buy_amount": 1998063.175584,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 2000000.0,
+   "source": "kyber",
+   "sell_amount": "1587516644338467266887680",
+   "buy_amount": 1997955.145752,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 2500000.0,
+   "source": "paraswap",
+   "sell_amount": "1984395805423084016500736",
+   "buy_amount": 2495720.508948,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 2500000.0,
+   "source": "cow",
+   "sell_amount": "1984395805423084016500736",
+   "buy_amount": 2497297.842414,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 2500000.0,
+   "source": "kyber",
+   "sell_amount": "1984395805423084016500736",
+   "buy_amount": 2497156.359488,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 3000000.0,
+   "source": "paraswap",
+   "sell_amount": "2381274966507700766113792",
+   "buy_amount": 2947469.672086,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 3000000.0,
+   "source": "cow",
+   "sell_amount": "2381274966507700766113792",
+   "buy_amount": 2996326.575331,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 3000000.0,
+   "source": "kyber",
+   "sell_amount": "2381274966507700766113792",
+   "buy_amount": 2996079.807225,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 3500000.0,
+   "source": "paraswap",
+   "sell_amount": "2778154127592317784162304",
+   "buy_amount": 3141400.296727,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 3500000.0,
+   "source": "cow",
+   "sell_amount": "2778154127592317784162304",
+   "buy_amount": 3494900.275443,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 3500000.0,
+   "source": "kyber",
+   "sell_amount": "2778154127592317784162304",
+   "buy_amount": 3494624.500873,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 4000000.0,
+   "source": "paraswap",
+   "sell_amount": "3175033288676934533775360",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480502,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"317503328867693"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 4000000.0,
+   "source": "cow",
+   "sell_amount": "3175033288676934533775360",
+   "buy_amount": 3992473.632787,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 4000000.0,
+   "source": "kyber",
+   "sell_amount": "3175033288676934533775360",
+   "buy_amount": 3582848.57621,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 5000000.0,
+   "source": "paraswap",
+   "sell_amount": "3968791610846168033001472",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480502,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"396879161084616"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 5000000.0,
+   "source": "cow",
+   "sell_amount": "3968791610846168033001472",
+   "buy_amount": 4978372.362544,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 5000000.0,
+   "source": "kyber",
+   "sell_amount": "3968791610846168033001472",
+   "buy_amount": 3437908.017561,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 7500000.0,
+   "source": "paraswap",
+   "sell_amount": "5953187416269251781066752",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480503,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"595318741626925"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 7500000.0,
+   "source": "cow",
+   "sell_amount": "5953187416269251781066752",
+   "buy_amount": 5546928.010249,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 7500000.0,
+   "source": "kyber",
+   "sell_amount": "5953187416269251781066752",
+   "buy_amount": 5024487.627582,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 10000000.0,
+   "source": "paraswap",
+   "sell_amount": "7937583221692336066002944",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480504,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"793758322169233"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 10000000.0,
+   "source": "cow",
+   "sell_amount": "7937583221692336066002944",
+   "buy_amount": 5121859.997647,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 10000000.0,
+   "source": "kyber",
+   "sell_amount": "7937583221692336066002944",
+   "buy_amount": 5038140.396759,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 25000000.0,
+   "source": "paraswap",
+   "sell_amount": "19843958054230840701878272",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480505,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"198439580542308"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 25000000.0,
+   "source": "cow",
+   "sell_amount": "19843958054230840701878272",
+   "buy_amount": 2892876.445298,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 25000000.0,
+   "source": "kyber",
+   "sell_amount": "19843958054230840701878272",
+   "buy_amount": 3203036.645409,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 50000000.0,
+   "source": "paraswap",
+   "sell_amount": "39687916108461681403756544",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480506,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"396879161084616"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 50000000.0,
+   "source": "cow",
+   "sell_amount": "39687916108461681403756544",
+   "buy_amount": 2791993.412745,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDC",
+   "size_usd": 50000000.0,
+   "source": "kyber",
+   "sell_amount": "39687916108461681403756544",
+   "buy_amount": 4395234.635104,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 100000.0,
+   "source": "paraswap",
+   "sell_amount": "79375832216923363344384",
+   "buy_amount": 100057.49369,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 100000.0,
+   "source": "cow",
+   "sell_amount": "79375832216923363344384",
+   "buy_amount": 100062.594841,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 100000.0,
+   "source": "kyber",
+   "sell_amount": "79375832216923363344384",
+   "buy_amount": 100064.762896,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 500000.0,
+   "source": "paraswap",
+   "sell_amount": "396879161084616816721920",
+   "buy_amount": 500197.456047,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 500000.0,
+   "source": "cow",
+   "sell_amount": "396879161084616816721920",
+   "buy_amount": 500242.817433,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 500000.0,
+   "source": "kyber",
+   "sell_amount": "396879161084616816721920",
+   "buy_amount": 500243.927276,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 1000000.0,
+   "source": "paraswap",
+   "sell_amount": "793758322169233633443840",
+   "buy_amount": 1000226.449955,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 1000000.0,
+   "source": "cow",
+   "sell_amount": "793758322169233633443840",
+   "buy_amount": 1000344.588565,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 1000000.0,
+   "source": "kyber",
+   "sell_amount": "793758322169233633443840",
+   "buy_amount": 1000311.668598,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 2000000.0,
+   "source": "paraswap",
+   "sell_amount": "1587516644338467266887680",
+   "buy_amount": 1999991.173332,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 2000000.0,
+   "source": "cow",
+   "sell_amount": "1587516644338467266887680",
+   "buy_amount": 2000236.040684,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 2000000.0,
+   "source": "kyber",
+   "sell_amount": "1587516644338467266887680",
+   "buy_amount": 2000150.97053,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 2500000.0,
+   "source": "paraswap",
+   "sell_amount": "1984395805423084016500736",
+   "buy_amount": 2499602.069438,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 2500000.0,
+   "source": "cow",
+   "sell_amount": "1984395805423084016500736",
+   "buy_amount": 2500026.159582,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 2500000.0,
+   "source": "kyber",
+   "sell_amount": "1984395805423084016500736",
+   "buy_amount": 2499898.931529,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 3000000.0,
+   "source": "paraswap",
+   "sell_amount": "2381274966507700766113792",
+   "buy_amount": 2998683.641134,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 3000000.0,
+   "source": "cow",
+   "sell_amount": "2381274966507700766113792",
+   "buy_amount": 2999583.133183,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 3000000.0,
+   "source": "kyber",
+   "sell_amount": "2381274966507700766113792",
+   "buy_amount": 2999366.791009,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 3500000.0,
+   "source": "paraswap",
+   "sell_amount": "2778154127592317784162304",
+   "buy_amount": 3496454.300284,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 3500000.0,
+   "source": "cow",
+   "sell_amount": "2778154127592317784162304",
+   "buy_amount": 3498514.55178,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 3500000.0,
+   "source": "kyber",
+   "sell_amount": "2778154127592317784162304",
+   "buy_amount": 3498345.656581,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 4000000.0,
+   "source": "paraswap",
+   "sell_amount": "3175033288676934533775360",
+   "buy_amount": 3829132.248194,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 4000000.0,
+   "source": "cow",
+   "sell_amount": "3175033288676934533775360",
+   "buy_amount": 3996540.48466,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 4000000.0,
+   "source": "kyber",
+   "sell_amount": "3175033288676934533775360",
+   "buy_amount": 3996646.657581,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 5000000.0,
+   "source": "paraswap",
+   "sell_amount": "3968791610846168033001472",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480511,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"396879161084616"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 5000000.0,
+   "source": "cow",
+   "sell_amount": "3968791610846168033001472",
+   "buy_amount": 4962030.076862,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 5000000.0,
+   "source": "kyber",
+   "sell_amount": "3968791610846168033001472",
+   "buy_amount": 4972461.472159,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 7500000.0,
+   "source": "paraswap",
+   "sell_amount": "5953187416269251781066752",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480512,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"595318741626925"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 7500000.0,
+   "source": "cow",
+   "sell_amount": "5953187416269251781066752",
+   "buy_amount": 5570989.966411,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 7500000.0,
+   "source": "kyber",
+   "sell_amount": "5953187416269251781066752",
+   "buy_amount": 4999448.26424,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 10000000.0,
+   "source": "paraswap",
+   "sell_amount": "7937583221692336066002944",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480513,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"793758322169233"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 10000000.0,
+   "source": "cow",
+   "sell_amount": "7937583221692336066002944",
+   "buy_amount": 6444603.226853,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 10000000.0,
+   "source": "kyber",
+   "sell_amount": "7937583221692336066002944",
+   "buy_amount": 4884498.254528,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 25000000.0,
+   "source": "paraswap",
+   "sell_amount": "19843958054230840701878272",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480513,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"198439580542308"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 25000000.0,
+   "source": "cow",
+   "sell_amount": "19843958054230840701878272",
+   "buy_amount": 5362855.859295,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 25000000.0,
+   "source": "kyber",
+   "sell_amount": "19843958054230840701878272",
+   "buy_amount": 4717010.346341,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 50000000.0,
+   "source": "paraswap",
+   "sell_amount": "39687916108461681403756544",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480514,\"network\":1,\"srcToken\":\"0x9D39A5DE30e57443BfF2A8307A4256c8797A3497\",\"srcDecimals\":18,\"srcAmount\":\"396879161084616"
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 50000000.0,
+   "source": "cow",
+   "sell_amount": "39687916108461681403756544",
+   "buy_amount": 4281702.255611,
+   "error": null
+  },
+  {
+   "sell": "sUSDe",
+   "buy": "USDT",
+   "size_usd": 50000000.0,
+   "source": "kyber",
+   "sell_amount": "39687916108461681403756544",
+   "buy_amount": 4691201.758259,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 100000.0,
+   "source": "paraswap",
+   "sell_amount": "99999999999999991611392",
+   "buy_amount": 99987.152579,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 100000.0,
+   "source": "cow",
+   "sell_amount": "99999999999999991611392",
+   "buy_amount": 99987.075244,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 100000.0,
+   "source": "kyber",
+   "sell_amount": "99999999999999991611392",
+   "buy_amount": 99987.841848,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 500000.0,
+   "source": "paraswap",
+   "sell_amount": "499999999999999991611392",
+   "buy_amount": 499901.827138,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 500000.0,
+   "source": "cow",
+   "sell_amount": "499999999999999991611392",
+   "buy_amount": 499901.915986,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 500000.0,
+   "source": "kyber",
+   "sell_amount": "499999999999999991611392",
+   "buy_amount": 499905.324477,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 1000000.0,
+   "source": "paraswap",
+   "sell_amount": "999999999999999983222784",
+   "buy_amount": 999734.943264,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 1000000.0,
+   "source": "cow",
+   "sell_amount": "999999999999999983222784",
+   "buy_amount": 999739.583898,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 1000000.0,
+   "source": "kyber",
+   "sell_amount": "999999999999999983222784",
+   "buy_amount": 999760.171685,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 2000000.0,
+   "source": "paraswap",
+   "sell_amount": "1999999999999999966445568",
+   "buy_amount": 1999118.992302,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 2000000.0,
+   "source": "cow",
+   "sell_amount": "1999999999999999966445568",
+   "buy_amount": 1999200.744601,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 2000000.0,
+   "source": "kyber",
+   "sell_amount": "1999999999999999966445568",
+   "buy_amount": 1999187.060272,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 2500000.0,
+   "source": "paraswap",
+   "sell_amount": "2500000000000000226492416",
+   "buy_amount": 2498556.534974,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 2500000.0,
+   "source": "cow",
+   "sell_amount": "2500000000000000226492416",
+   "buy_amount": 2498800.273688,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 2500000.0,
+   "source": "kyber",
+   "sell_amount": "2500000000000000226492416",
+   "buy_amount": 2498751.798181,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 3000000.0,
+   "source": "paraswap",
+   "sell_amount": "2999999999999999949668352",
+   "buy_amount": 2997848.491273,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 3000000.0,
+   "source": "cow",
+   "sell_amount": "2999999999999999949668352",
+   "buy_amount": 2998325.794756,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 3000000.0,
+   "source": "kyber",
+   "sell_amount": "2999999999999999949668352",
+   "buy_amount": 2998200.2945,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 3500000.0,
+   "source": "paraswap",
+   "sell_amount": "3500000000000000209715200",
+   "buy_amount": 3497016.510266,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 3500000.0,
+   "source": "cow",
+   "sell_amount": "3500000000000000209715200",
+   "buy_amount": 3497762.624393,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 3500000.0,
+   "source": "kyber",
+   "sell_amount": "3500000000000000209715200",
+   "buy_amount": 3497520.543632,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 4000000.0,
+   "source": "paraswap",
+   "sell_amount": "3999999999999999932891136",
+   "buy_amount": 3995493.01836,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 4000000.0,
+   "source": "cow",
+   "sell_amount": "3999999999999999932891136",
+   "buy_amount": 3997147.420084,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 4000000.0,
+   "source": "kyber",
+   "sell_amount": "3999999999999999932891136",
+   "buy_amount": 3996635.581629,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 5000000.0,
+   "source": "paraswap",
+   "sell_amount": "5000000000000000452984832",
+   "buy_amount": 4817833.551512,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 5000000.0,
+   "source": "cow",
+   "sell_amount": "5000000000000000452984832",
+   "buy_amount": 4995673.279849,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 5000000.0,
+   "source": "kyber",
+   "sell_amount": "5000000000000000452984832",
+   "buy_amount": 4993743.273153,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 7500000.0,
+   "source": "paraswap",
+   "sell_amount": "7500000000000000142606336",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480521,\"network\":1,\"srcToken\":\"0x4c9EDD5852cd905f086C759E8383e09bff1E68B3\",\"srcDecimals\":18,\"srcAmount\":\"750000000000000"
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 7500000.0,
+   "source": "cow",
+   "sell_amount": "7500000000000000142606336",
+   "buy_amount": 7475860.348464,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 7500000.0,
+   "source": "kyber",
+   "sell_amount": "7500000000000000142606336",
+   "buy_amount": 6750585.586662,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 10000000.0,
+   "source": "paraswap",
+   "sell_amount": "10000000000000000905969664",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480521,\"network\":1,\"srcToken\":\"0x4c9EDD5852cd905f086C759E8383e09bff1E68B3\",\"srcDecimals\":18,\"srcAmount\":\"100000000000000"
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 10000000.0,
+   "source": "cow",
+   "sell_amount": "10000000000000000905969664",
+   "buy_amount": 8523621.287752,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 10000000.0,
+   "source": "kyber",
+   "sell_amount": "10000000000000000905969664",
+   "buy_amount": 7094539.579417,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 25000000.0,
+   "source": "paraswap",
+   "sell_amount": "25000000000000001191182336",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480522,\"network\":1,\"srcToken\":\"0x4c9EDD5852cd905f086C759E8383e09bff1E68B3\",\"srcDecimals\":18,\"srcAmount\":\"250000000000000"
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 25000000.0,
+   "source": "cow",
+   "sell_amount": "25000000000000001191182336",
+   "buy_amount": 7654128.082777,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 25000000.0,
+   "source": "kyber",
+   "sell_amount": "25000000000000001191182336",
+   "buy_amount": 6589978.353009,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 50000000.0,
+   "source": "paraswap",
+   "sell_amount": "50000000000000002382364672",
+   "buy_amount": null,
+   "error": "{\"error\":\"ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT\",\"priceRoute\":{\"blockNumber\":26480523,\"network\":1,\"srcToken\":\"0x4c9EDD5852cd905f086C759E8383e09bff1E68B3\",\"srcDecimals\":18,\"srcAmount\":\"500000000000000"
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 50000000.0,
+   "source": "cow",
+   "sell_amount": "50000000000000002382364672",
+   "buy_amount": 7010309.879649,
+   "error": null
+  },
+  {
+   "sell": "USDe",
+   "buy": "USDC",
+   "size_usd": 50000000.0,
+   "source": "kyber",
+   "sell_amount": "50000000000000002382364672",
+   "buy_amount": 6179442.864509,
+   "error": null
+  }
+ ]
+}

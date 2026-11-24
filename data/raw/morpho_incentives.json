@@ -1,0 +1,12 @@
+{
+ "source": "Morpho API, daily netBorrowApy against borrowApy and netSupplyApy against supplyApy, 12 January to 23 November 2026",
+ "fetched": "2026-11-24",
+ "days": 317,
+ "days_borrow_side_incentive": 0,
+ "days_supply_side_incentive": 59,
+ "supply_incentive_first_day": "2026-02-01",
+ "supply_incentive_last_day": "2026-03-31",
+ "supply_incentive_mean_points": 0.35,
+ "supply_incentive_max_points": 0.53,
+ "rewards_listed_today": 0
+}

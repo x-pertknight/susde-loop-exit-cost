@@ -1,0 +1,16 @@
+{
+ "positions_all_markets_over_10k": 29,
+ "positions_all_markets_any_debt": 152,
+ "population_main": {
+  "positions": 19,
+  "debt_musd": 94.0,
+  "collateral_musd": 108.7,
+  "ltv_debt_weighted_mean": 0.865,
+  "leverage_at_mean_ltv": 7.4,
+  "feed_fall_to_liquidation_at_mean_ltv": 0.054,
+  "debt_share_within_2_points": 0.02,
+  "top10_debt_share": 0.94,
+  "positions_collateral_over_5m": 9,
+  "collateral_share_over_5m": 0.9
+ }
+}

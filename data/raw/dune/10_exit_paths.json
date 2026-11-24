@@ -1,0 +1,19 @@
+{
+ "query_id": 9186160,
+ "run_at": "2026-11-24",
+ "unit": "millions of sUSDe, counts of addresses, one share",
+ "note": "Address-level match, see the SQL. Check query 9179682: all 14,089 sUSDe Withdraw events since December 2025 have the cooldown silo as receiver.",
+ "rows": [
+  {
+   "receivers": 101,
+   "withdrawn_m": 392.26,
+   "matched_cooldown_within_1d_m": 134.33,
+   "matched_cooldown_within_3d_m": 157.86,
+   "matched_cooldown_within_7d_m": 164.47,
+   "matched_cooldown_any_later_m": 259.79,
+   "receivers_with_cooldown_within_3d": 40,
+   "receivers_with_cooldown_later": 52,
+   "share_of_ten_largest_receivers": 0.8
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "query_id": 9186181,
+ "run_at": "2026-11-24",
+ "unit": "millions of sUSDe, counts of addresses",
+ "note": "Address-level match, see the SQL.",
+ "rows": [
+  {
+   "receivers": 101,
+   "withdrawn_m": 392.26,
+   "sold_dex_within_1d_m": 14.94,
+   "sold_dex_within_3d_m": 18.59,
+   "sold_cow_within_3d_m": 3.78,
+   "sold_dex_or_cow_within_3d_m": 22.37,
+   "sold_dex_or_cow_within_7d_m": 23.01,
+   "sold_dex_or_cow_any_later_m": 34.98,
+   "sold_dex_within_3d_capped_per_day_m": 16.57,
+   "sold_dex_or_cow_within_3d_capped_per_day_m": 20.35,
+   "receivers_selling_on_dex_within_3d": 40,
+   "receivers_selling_on_cow_within_3d": 3,
+   "receivers_selling_within_3d": 41
+  }
+ ]
+}

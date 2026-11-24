@@ -1,0 +1,79 @@
+{
+ "query_id": 9186211,
+ "run_at": "2026-11-24",
+ "unit": "millions of PYUSD and counts of repayment transactions",
+ "rows": [
+  {
+   "kind": "1 newly issued PYUSD (mint to the payer)",
+   "repayments_touched": 5,
+   "repaid_pyusd_m": 36.5,
+   "share_of_repayments_over_1m": 0.123,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  },
+  {
+   "kind": "2 bought on a DEX in an earlier transaction, paying USDC",
+   "repayments_touched": 11,
+   "repaid_pyusd_m": 13.9,
+   "share_of_repayments_over_1m": 0.047,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  },
+  {
+   "kind": "2 bought on a DEX in an earlier transaction, paying USDS",
+   "repayments_touched": 47,
+   "repaid_pyusd_m": 109.9,
+   "share_of_repayments_over_1m": 0.371,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  },
+  {
+   "kind": "2 bought on a DEX in an earlier transaction, paying crvUSD",
+   "repayments_touched": 1,
+   "repaid_pyusd_m": 1.6,
+   "share_of_repayments_over_1m": 0.005,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  },
+  {
+   "kind": "3 received in a transaction with a borrow on Morpho or Aave",
+   "repayments_touched": 16,
+   "repaid_pyusd_m": 25.8,
+   "share_of_repayments_over_1m": 0.087,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  },
+  {
+   "kind": "5 from another address active in this market",
+   "repayments_touched": 16,
+   "repaid_pyusd_m": 33.4,
+   "share_of_repayments_over_1m": 0.113,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  },
+  {
+   "kind": "6 from an unlabelled contract",
+   "repayments_touched": 10,
+   "repaid_pyusd_m": 38.6,
+   "share_of_repayments_over_1m": 0.13,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  },
+  {
+   "kind": "7 from an unlabelled wallet",
+   "repayments_touched": 21,
+   "repaid_pyusd_m": 34.5,
+   "share_of_repayments_over_1m": 0.116,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  },
+  {
+   "kind": "8 not covered by PYUSD received in the 24 hours before",
+   "repayments_touched": 8,
+   "repaid_pyusd_m": 2.1,
+   "share_of_repayments_over_1m": 0.007,
+   "repayments_over_1m": 91,
+   "repaid_over_1m_m": 296.3
+  }
+ ]
+}

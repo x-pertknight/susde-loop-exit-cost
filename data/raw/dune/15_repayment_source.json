@@ -1,0 +1,39 @@
+{
+ "query_id": 9186210,
+ "run_at": "2026-11-24",
+ "unit": "millions of PYUSD and counts of transactions",
+ "rows": [
+  {
+   "source": "4a received within 24h, newly issued PYUSD",
+   "txs": 7,
+   "pyusd_m": 46.7,
+   "share": 0.157,
+   "total_m": 296.3,
+   "all_repayments_m": 413.8
+  },
+  {
+   "source": "4c received within 24h, from another address active in this market",
+   "txs": 13,
+   "pyusd_m": 39.1,
+   "share": 0.132,
+   "total_m": 296.3,
+   "all_repayments_m": 413.8
+  },
+  {
+   "source": "4d received within 24h, from an unlabelled address",
+   "txs": 70,
+   "pyusd_m": 209.4,
+   "share": 0.707,
+   "total_m": 296.3,
+   "all_repayments_m": 413.8
+  },
+  {
+   "source": "5 held for more than 24h, or not seen",
+   "txs": 1,
+   "pyusd_m": 1.1,
+   "share": 0.004,
+   "total_m": 296.3,
+   "all_repayments_m": 413.8
+  }
+ ]
+}

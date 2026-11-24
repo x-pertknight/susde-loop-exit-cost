@@ -1,0 +1,8 @@
+{
+ "source": "sUSDe contract 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497, read on chain with cast call",
+ "read_on": "2026-11-23",
+ "max_days": 90,
+ "current_days": 1,
+ "max_constant": "MAX_COOLDOWN_DURATION",
+ "current_function": "cooldownDuration"
+}

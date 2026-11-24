@@ -1,0 +1,27 @@
+{
+ "query_id": 9186198,
+ "run_at": "2026-11-24",
+ "unit": "shares of PYUSD repaid by positions with both a repayment and an unstake request; null = none",
+ "rows": [
+  {
+   "positions_with_repayment_and_unstake": 63,
+   "positions_with_repayment": 103,
+   "repayments": 442,
+   "repaid_m": 353.9,
+   "all_repaid_m": 413.8,
+   "share_request_in_same_tx": null,
+   "share_request_within_1h_after": 0.312,
+   "share_request_within_24h_after": 0.498,
+   "share_request_within_3d_after": 0.564,
+   "share_usde_ready_within_24h_before": 0.27,
+   "share_usde_ready_within_3d_before": 0.371,
+   "share_with_request_pending_at_repayment": 0.051,
+   "share_both_3d": 0.284,
+   "share_only_usde_ready_before_3d": 0.088,
+   "share_only_request_after_3d": 0.28,
+   "share_neither_3d": 0.349,
+   "median_hours_to_next_request_by_value": 1.62,
+   "median_hours_since_usde_ready_by_value": 12.83
+  }
+ ]
+}

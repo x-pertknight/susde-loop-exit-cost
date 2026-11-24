@@ -1,0 +1,10 @@
+{"query_id": 9179318, "run_at": "2026-11-23", "note": "rows for hours 0 to 2 UTC with more than 1M USDe traded; the full result has 56 rows", "rows": [
+ {"h": 0, "project": "uniswap", "version": "2", "trades": 142, "pools": 1, "usde_m": 3.94, "median_px": 0.6366, "p10_px": 0.4454, "min_px": 0.3683},
+ {"h": 0, "project": "uniswap", "version": "4", "trades": 86, "pools": 1, "usde_m": 2.9, "median_px": 0.9964, "p10_px": 0.9501, "min_px": 0.95},
+ {"h": 0, "project": "curve", "version": "Factory V1 Stableswap Plain NG", "trades": 75, "pools": 2, "usde_m": 2.26, "median_px": 0.9993, "p10_px": 0.9957, "min_px": 0.9917},
+ {"h": 1, "project": "uniswap", "version": "2", "trades": 184, "pools": 1, "usde_m": 11.2, "median_px": 0.6896, "p10_px": 0.6696, "min_px": 0.4282},
+ {"h": 1, "project": "curve", "version": "Factory V1 Stableswap Plain NG", "trades": 275, "pools": 2, "usde_m": 7.39, "median_px": 0.9981, "p10_px": 0.9863, "min_px": 0.9573},
+ {"h": 1, "project": "uniswap", "version": "4", "trades": 99, "pools": 1, "usde_m": 2.81, "median_px": 0.9993, "p10_px": 0.95, "min_px": 0.9499},
+ {"h": 2, "project": "curve", "version": "Factory V1 Stableswap Plain NG", "trades": 91, "pools": 2, "usde_m": 3.83, "median_px": 0.9999, "p10_px": 0.9958, "min_px": 0.9613},
+ {"h": 2, "project": "uniswap", "version": "2", "trades": 28, "pools": 1, "usde_m": 3.39, "median_px": 0.6882, "p10_px": 0.669, "min_px": 0.5988},
+ {"h": 2, "project": "uniswap", "version": "4", "trades": 45, "pools": 1, "usde_m": 1.89, "median_px": 0.9994, "p10_px": 0.9542, "min_px": 0.9499}]}

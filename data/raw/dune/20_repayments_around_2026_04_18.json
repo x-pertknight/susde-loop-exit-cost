@@ -1,0 +1,25 @@
+{
+ "query_id": 9180143,
+ "run_at": "2026-11-23",
+ "unit": "millions of PYUSD, hours and counts of addresses",
+ "rows": [
+  {
+   "reference_time_utc": "2026-04-18 17:35",
+   "ten_repaid_30d_before_m": 11.1,
+   "ten_repaid_6d_before_m": 0,
+   "ten_repaid_24h_after_m": 9.9,
+   "ten_repaid_3d_after_m": 54.1,
+   "ten_repaid_6d_after_m": 81.0,
+   "ten_borrowed_6d_before_m": 18.7,
+   "ten_borrowed_6d_after_m": 34.7,
+   "hours_to_first_repayment_over_1m_by_the_ten": 3.7,
+   "of_the_ten_repaying_over_1m_within_3d": 6,
+   "of_the_ten_repaying_over_1m_within_6d": 6,
+   "others_net_change_6d_before_m": -1.5,
+   "others_net_change_6d_after_m": 16.3,
+   "market_net_change_6d_before_m": 17.2,
+   "market_net_change_6d_after_m": -30.0,
+   "ten_largest_6d_block_repaid_before_m": 11.1
+  }
+ ]
+}
