@@ -1,4 +1,4 @@
--- Where the PYUSD in repayments above 1 million came from, in aggregate. Dune query 9186210.
+-- Where the PYUSD in repayments above 1 million came from, in aggregate. Public Dune query: https://dune.com/queries/9186424
 -- Each repayment transaction above 1M PYUSD gets one class, tested in this order:
 --   1 a flash loan in the same transaction (Morpho, Aave v3, Balancer v2)
 --   2 a swap into PYUSD in the same transaction, for at least half of the repaid amount

@@ -1,7 +1,7 @@
 -- Reading the outliers by hand. A first version of query 01 used a plain volume-weighted average price
 -- and showed USDe "discounts" of 8% to 20% on five days. This query lists those days by venue and side.
 -- Result: on four of the five days the cause is one or two Uniswap trades at 0.03 to 0.30 USD with equal
--- volume on the buy and the sell side. Query 01 now uses the volume-weighted median. Dune query 9179314.
+-- volume on the buy and the sell side. Query 01 now uses the volume-weighted median. Public Dune query: https://dune.com/queries/9186413
 WITH t AS (
     SELECT block_time, project, tx_hash,
            CASE WHEN token_sold_address = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3 THEN 'sell_usde' ELSE 'buy_usde' END AS side,

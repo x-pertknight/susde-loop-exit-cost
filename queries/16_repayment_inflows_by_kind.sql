@@ -1,5 +1,5 @@
 -- The PYUSD received in the 24 hours before each repayment above 1 million, by how it reached the payer.
--- Dune query 9186211. Aggregate only.
+-- Public Dune query: https://dune.com/queries/9186425. Aggregate only.
 -- Each transfer is counted once: it goes to the first repayment its receiver made in the 24 hours after it.
 -- A repayment is covered up to its own size, and the covered part is split across the kinds of transfer in
 -- proportion to their amounts. What is left is "not covered".

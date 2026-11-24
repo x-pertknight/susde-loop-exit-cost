@@ -1,4 +1,4 @@
--- USDe against USDC and USDT on 2026-10-30, by hour and venue. Dune query 9179318.
+-- USDe against USDC and USDT on 2026-10-30, by hour and venue. Public Dune query: https://dune.com/queries/9186414
 -- p10_px is the price below which the worst 10% of the hour's volume traded.
 WITH t AS (
     SELECT block_time, project, version, project_contract_address AS pool, tx_hash,

@@ -1,5 +1,6 @@
 -- sUSDe / PYUSD market on Morpho: who made the fall in debt from 15 April to 15 August 2026, in groups.
--- Dune query 9186043, run on 24 November 2026 with the column top10_under_5pct_left. An earlier run, 9179879,
+-- Public Dune query: https://dune.com/queries/9186421
+-- This version has the column top10_under_5pct_left. An earlier version
 -- had one more column, the largest single address, which is not kept here.
 -- Debt per address is rebuilt from Borrow, Repay and Liquidate events (PYUSD, interest not included).
 -- "Fall" of an address = its debt on 15 April 2026 minus its debt on 15 August 2026.

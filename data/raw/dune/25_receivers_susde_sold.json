@@ -1,5 +1,6 @@
 {
  "query_id": 9186181,
+ "public_query": "https://dune.com/queries/9186433",
  "run_at": "2026-11-24",
  "unit": "millions of sUSDe, counts of addresses",
  "note": "Address-level match, see the SQL.",

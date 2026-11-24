@@ -1,4 +1,4 @@
--- sUSDe / PYUSD market on Morpho: how far the book was from liquidation on seven dates. Dune query 9180158.
+-- sUSDe / PYUSD market on Morpho: how far the book was from liquidation on seven dates. Public Dune query: https://dune.com/queries/9186430
 -- Measured from events, in aggregate. No address is in the output.
 -- Per address: collateral = SupplyCollateral - WithdrawCollateral - seized in Liquidate. Debt = its borrow
 -- shares x market borrow assets / market borrow shares, where market borrow assets include AccrueInterest.

@@ -1,4 +1,4 @@
--- Query 20 repeated for three reference times, as a comparison. Dune query 9180248. Aggregate only.
+-- Query 20 repeated for three reference times, as a comparison. Public Dune query: https://dune.com/queries/9186431. Aggregate only.
 -- 18 April 2026 17:35 UTC is the reported start of the Kelp DAO exploit. 11 March and 12 May 2026 (00:00 UTC)
 -- are the first days of the other two largest 7-day falls in the market's debt. The ten addresses are the
 -- same in all three rows: the ten with the largest fall in debt between 15 April and 15 August 2026.

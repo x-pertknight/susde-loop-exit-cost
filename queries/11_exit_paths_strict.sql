@@ -1,4 +1,4 @@
--- Stricter version of query 10. Dune query 9186163.
+-- Stricter version of query 10. Public Dune query: https://dune.com/queries/9186420
 -- Each cooldown request (an unstake) is assigned to the day of the latest withdrawal to the same address
 -- before it. The matched amount is capped at what the address received on that day, not over its whole life.
 -- Same limits as query 10: addresses are matched, not coins.

@@ -1,4 +1,4 @@
--- Timing of repayments against Ethena unstake requests, for positions that did both. Dune query 9186198.
+-- Timing of repayments against Ethena unstake requests, for positions that did both. Public Dune query: https://dune.com/queries/9186427
 -- Aggregate only, shares by PYUSD repaid.
 -- A position's addresses are its owner, the senders of its repayments and the receivers of its collateral.
 -- An unstake request is a Withdraw event of the sUSDe contract (see query 10). Its USDe is counted as ready

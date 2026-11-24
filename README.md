@@ -2,7 +2,7 @@
 
 A study of the sUSDe / PYUSD lending market on Morpho (Ethereum). Data taken on 23 November 2026.
 
-`python3 code/analyze.py` recomputes the numbers below from the saved inputs in `data/raw` and writes `data/results.json`. The key in brackets after a number is its name in that file. Dune results are saved aggregates of the SQL in `queries/`. Every query that reads the whole life of the market, or that used the run date, stops at 24 November 2026 00:00:00 UTC, so a rerun reads the same events. The eighteen queries with that bound were rerun on 24 November and their results saved. Two things can still move on a rerun. Between the run of 23 November and the rerun, 52 daily USDe values of query 01 moved (the largest, the worst-tenth price of 31 July 2026, from 61.7 to 1.8 bp) and the two medians of query 19 moved by 0.2 and 0.4 hours. Those values use Dune's approximate percentile over `dex.trades`, and whether the function or a revision of the table moved them was not separated. No number in `data/results.json` outside those two medians changed with them. `cex.addresses`, the exchange label table of queries 15 and 16, has no time bound. Position rows are not in the repo (see "Who is in the market").
+`python3 code/analyze.py` recomputes the numbers below from the saved inputs in `data/raw` and writes `data/results.json`. The key in brackets after a number is its name in that file. Dune results are saved aggregates of the SQL in `queries/`. Every query that reads the whole life of the market, or that used the run date, stops at 24 November 2026 00:00:00 UTC, so a rerun reads the same events. The eighteen queries with that bound were rerun on 24 November and their results saved. Two things can still move on a rerun. Between the run of 23 November and the rerun, 52 daily USDe values of query 01 moved (the largest, the worst-tenth price of 31 July 2026, from 61.7 to 1.8 bp) and the two medians of query 19 moved by 0.2 and 0.4 hours. Those values use Dune's approximate percentile over `dex.trades`, and whether the function or a revision of the table moved them was not separated. No number in `data/results.json` outside those two medians changed with them. `cex.addresses`, the exchange label table of queries 15 and 16, has no time bound. The public runs of 24 November (links under "Reproduce") returned the saved values, with these exceptions: the approximate USDe columns of query 01 on 47 days (by at most 2.4 bp), the two medians of query 19 (1.83 and 12.72 hours against 1.62 and 12.83 saved), the two approximate medians of query 06 (5.80 and 3.02 million against 5.94 and 3.10 saved), and one count in query 16, the repayments in the row "not covered" (9 against 8 saved, with the same amount). Position rows are not in the repo (see "Who is in the market").
 
 ## Terms
 
@@ -64,7 +64,7 @@ The two series are not the same kind. The sUSDe yield is a daily APY series publ
 
 ## Where it can lose
 
-### 1. One transaction holds about 4 to 5 million USD
+### 1. One transaction holds about 3 million USD at under 0.5%
 
 <!-- quotes-table:start -->
 Quoted cost of selling sUSDe for USDC in one transaction, best of ParaSwap, CoW Protocol and KyberSwap, 8 snapshots from 23 November 19:16 to 24 November 2026 20:00 UTC [`quotes.sUSDe_to_USDC`]:
@@ -97,7 +97,7 @@ How to read it:
 - The same services quote plain USDe at a median loss of 13.4% for 10 million (range 7.2% to 14.9%) [`quotes.USDe_to_USDC`]. The jump is read here as a limit of what one transaction can route, not a market price for size.
 - No quote into PYUSD, the borrowed token, was taken.
 
-For scale: over the last 90 days the median amount of sUSDe sold on Ethereum DEXs was 3.1 million USD a day and the largest day 14.4 million [`dex_volume_90d`]. That volume counts every leg of a routed trade.
+For scale: over the last 90 days the median amount of sUSDe sold on Ethereum DEXs was about 3 million USD a day (3.1 in the saved run, 3.0 in the public run, an approximate median) and the largest day 14.4 million [`dex_volume_90d`]. That volume counts every leg of a routed trade.
 
 ![quoted exit cost](charts/chart1_exit_cost.png)
 
@@ -313,7 +313,36 @@ python3 code/fetch_lender_side.py  # hourly supply, debt and borrow rate from th
 python3 code/read_oracle.py    # oracle inputs from a public RPC
 ```
 
-The SQL in `queries/` runs on Dune. Saved results are in `data/raw/dune/` with the Dune query id. Query 04 has no saved result. The ids point to the author's own runs and may not open for a reader. The SQL in `queries/` is what reproduces the results.
+The SQL in `queries/` runs on Dune. Each file below is saved there as a public query with the same SQL, and the dashboard https://dune.com/xpertknight/susde-loop-exit-cost-on-morpho shows five of them. Saved results are in `data/raw/dune/`: `public_query` is the public query and `query_id` is the earlier run that produced the saved rows. Query 04 has no saved result. The SQL in `queries/` is what reproduces the results.
+
+| File | Public query |
+|---|---|
+| `01_hourly_discount.sql` | https://dune.com/queries/9186410 |
+| `02_cooldown_changes.sql` | https://dune.com/queries/9186411 |
+| `03_unwinds.sql` | https://dune.com/queries/9186412 |
+| `04_outlier_check.sql` | https://dune.com/queries/9186413 |
+| `05_usde_20261030_by_venue.sql` | https://dune.com/queries/9186414 |
+| `06_susde_dex_volume.sql` | https://dune.com/queries/9186415 |
+| `07_withdrawals_with_dex_sale.sql` | https://dune.com/queries/9186416 |
+| `08_exits_by_month.sql` | https://dune.com/queries/9186417 |
+| `09_feed_history.sql` | https://dune.com/queries/9186418 |
+| `10_exit_paths.sql` | https://dune.com/queries/9186419 |
+| `11_exit_paths_strict.sql` | https://dune.com/queries/9186420 |
+| `12_debt_fall_by_group.sql` | https://dune.com/queries/9186421 |
+| `13_debt_change_weekly_by_group.sql` | https://dune.com/queries/9186422 |
+| `14_fallers_elsewhere.sql` | https://dune.com/queries/9186423 |
+| `15_repayment_source.sql` | https://dune.com/queries/9186424 |
+| `16_repayment_inflows_by_kind.sql` | https://dune.com/queries/9186425 |
+| `17_new_pyusd_to_payers.sql` | https://dune.com/queries/9186426 |
+| `19_repayment_vs_unstake_timing.sql` | https://dune.com/queries/9186427 |
+| `20_repayments_around_2026_04_18.sql` | https://dune.com/queries/9186428 |
+| `21_oracle_ratio_drawdown.sql` | https://dune.com/queries/9186429 |
+| `22_liquidation_distance_by_date.sql` | https://dune.com/queries/9186430 |
+| `23_repayments_around_three_dates.sql` | https://dune.com/queries/9186431 |
+| `24_receivers_and_usde_sold.sql` | https://dune.com/queries/9186432 |
+| `25_receivers_susde_sold.sql` | https://dune.com/queries/9186433 |
+
+Queries 18 and 26 are not public on Dune. Their ids point to the author's own runs and may not open for a reader.
 
 Some inputs were made or edited by hand and are not rebuilt by a script or by the SQL alone: `morpho_incentives.json` (a summary of Morpho API rates, behind the incentive days and the 0.35 points), the keys `distinct_vaults_both_windows`, `distinct_curators_both_windows`, `of_which_metamorpho_vaults` and `curators` in `26_supply_withdrawers.json` (read on chain and from the Morpho API, behind "one vault in April and two in May" and "one curator"), `08_exits_by_month.json` (nulls written as 0 and the whole-life total above 4 million sUSDe saved as one key, behind the 36%), and `unstake_wait.json` (read from the sUSDe contract with a contract call, behind the 1 day and the 90 day maximum). `09_feed_history.json` is now the one row the SQL returns.
 

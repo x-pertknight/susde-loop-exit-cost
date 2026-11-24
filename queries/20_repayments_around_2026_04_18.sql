@@ -1,5 +1,5 @@
 -- sUSDe / PYUSD market on Morpho: repayments by the ten addresses with the largest fall in debt, before and
--- after 18 April 2026 17:35 UTC. Dune query 9180143. Aggregate only.
+-- after 18 April 2026 17:35 UTC. Public Dune query: https://dune.com/queries/9186428. Aggregate only.
 -- The reference time is the start of the Kelp DAO rsETH bridge exploit as reported in public write-ups
 -- (17:35 UTC; one write-up gives 18:52 UTC). This query measures timing. It does not show a cause.
 -- The ten addresses are ranked as in query 13 (fall in debt between 15 April and 15 August 2026).

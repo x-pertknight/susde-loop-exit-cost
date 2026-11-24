@@ -1,5 +1,6 @@
 {
  "query_id": 9186199,
+ "public_query": "https://dune.com/queries/9186417",
  "run_at": "2026-11-24",
  "unit": "millions of sUSDe, except pyusd_repaid_same_tx_m (millions of PYUSD) and counts. Nulls in the Dune result are written as 0. November is partial. The sUSDe in transactions above 4 million is saved as one whole-life total.",
  "rows": [

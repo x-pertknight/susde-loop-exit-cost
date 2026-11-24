@@ -1,4 +1,4 @@
--- How newly issued PYUSD reached the payers of repayments above 1 million. Dune query 9186213. Aggregate only.
+-- How newly issued PYUSD reached the payers of repayments above 1 million. Public Dune query: https://dune.com/queries/9186426. Aggregate only.
 -- A mint is a PYUSD transfer from the zero address. The query takes the mints that reached a payer in the
 -- 24 hours before one of its repayments, counts who sent those transactions and which contract they called,
 -- and then counts how many addresses the same transaction senders minted PYUSD to since December 2025.

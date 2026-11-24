@@ -1,3 +1,4 @@
+-- Public Dune query: https://dune.com/queries/9186410
 -- Daily summary of the hourly on-chain price of sUSDe against its unstake value, and of USDe against USDC/USDT.
 -- sUSDe unstake rate: USDe per sUSDe, taken from deposits and withdrawals of the staking vault.
 -- Discount of sUSDe = 1 - (USDe received per sUSDe sold on a DEX) / (unstake rate).

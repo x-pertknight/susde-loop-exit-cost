@@ -1,3 +1,4 @@
+-- Public Dune query: https://dune.com/queries/9186412
 -- How collateral leaves the sUSDe-type Morpho markets, last 90 days, in aggregate.
 -- A withdrawal is "atomic" when the same transaction also repays debt in the same market.
 -- It "uses a Morpho flash loan" when the transaction also contains a Morpho FlashLoan event.

@@ -2,7 +2,8 @@
 -- These two feeds, with the sUSDe contract rate, are the inputs of the oracle of the sUSDe / PYUSD market.
 -- Event AnswerUpdated(int256 current, uint256 roundId, uint256 updatedAt): topic1 is the answer, 8 decimals.
 -- The four addresses are the aggregators behind the two feed proxies (phaseAggregators 1 and 2 of each).
--- Dune query 9179488 returned one row per day; this version, run as 9186164, returns the summary row that is saved.
+-- An earlier version returned one row per day; this version returns the summary row that is saved.
+-- Public Dune query: https://dune.com/queries/9186418
 -- Cutoff: only events before 2026-11-24 00:00:00 UTC are read, so a rerun gives the saved result.
 WITH a AS (
     SELECT block_date,

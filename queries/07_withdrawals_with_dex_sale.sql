@@ -1,5 +1,5 @@
 -- Of the sUSDe collateral withdrawn from the sUSDe / PYUSD market on Morpho in the last 90 days,
--- how much left in a transaction that also sold sUSDe on a DEX. Dune query 9186174.
+-- how much left in a transaction that also sold sUSDe on a DEX. Public Dune query: https://dune.com/queries/9186416
 -- A sale filled outside the venues in Dune's dex.trades table (a private quote, for example) is not seen here.
 -- Cutoff: only events before 2026-11-24 00:00:00 UTC are read, so a rerun gives the saved result.
 WITH w AS (

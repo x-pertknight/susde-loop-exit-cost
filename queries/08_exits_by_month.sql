@@ -1,5 +1,5 @@
 -- sUSDe / PYUSD market on Morpho, whole life, by month: collateral withdrawn and what else happened
--- in the same transaction. Dune query 9186199.
+-- in the same transaction. Public Dune query: https://dune.com/queries/9186417
 -- Limits: a repayment in the same transaction says nothing about where the PYUSD came from. A sale filled
 -- outside the venues in dex.trades, or in another transaction, is not seen. A withdrawal is counted whether
 -- or not the position was closed.

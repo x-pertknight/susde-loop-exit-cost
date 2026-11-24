@@ -1,4 +1,4 @@
--- Two checks on the receivers of sUSDe withdrawn from the sUSDe / PYUSD market on Morpho. Dune query 9186195.
+-- Two checks on the receivers of sUSDe withdrawn from the sUSDe / PYUSD market on Morpho. Public Dune query: https://dune.com/queries/9186432
 -- Aggregate only.
 -- 1. Receivers that are contracts, what they received, and sUSDe sent on by any receiver within 3 days of a
 --    withdrawal (transfers out, leaving aside burns, the sUSDe contract and the Morpho contract).

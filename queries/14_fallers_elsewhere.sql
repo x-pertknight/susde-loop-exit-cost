@@ -1,5 +1,5 @@
 -- The ten addresses with the largest fall in debt (15 April to 15 August 2026): what else they did between
--- 9 April and 23 August 2026, in aggregate. Dune query 9186201.
+-- 9 April and 23 August 2026, in aggregate. Public Dune query: https://dune.com/queries/9186423
 -- Limits: a borrow elsewhere is counted, not sized, and its collateral is not checked, so it is not proof of
 -- a refinance. The unstake match is by address: least(fall in PYUSD, USDe unstaked), summed.
 -- Debt per address is rebuilt from Borrow, Repay and Liquidate events (PYUSD, interest not included).

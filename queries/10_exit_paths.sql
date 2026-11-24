@@ -1,7 +1,7 @@
 -- sUSDe withdrawn from the sUSDe / PYUSD market on Morpho: did the receiving address then start an Ethena
--- cooldown (an unstake request)? Whole life of the market, in aggregate. Dune query 9186160.
--- Every Withdraw event of the sUSDe contract in these months has the cooldown silo as receiver (check query
--- 9179682: 14,089 events, one receiver), so each one is an unstake request.
+-- cooldown (an unstake request)? Whole life of the market, in aggregate. Public Dune query: https://dune.com/queries/9186419
+-- Every Withdraw event of the sUSDe contract in these months has the cooldown silo as receiver (a separate check
+-- found 14,089 events, one receiver), so each one is an unstake request.
 -- Each cooldown request is counted once, with the time since the latest withdrawal to the same address.
 -- Per address the matched amount is capped at what the address received from the market.
 -- Limits: this matches addresses, not coins. An address can unstake sUSDe it got elsewhere, and sUSDe

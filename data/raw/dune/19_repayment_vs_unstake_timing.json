@@ -1,5 +1,6 @@
 {
  "query_id": 9186198,
+ "public_query": "https://dune.com/queries/9186427",
  "run_at": "2026-11-24",
  "unit": "shares of PYUSD repaid by positions with both a repayment and an unstake request; null = none",
  "rows": [

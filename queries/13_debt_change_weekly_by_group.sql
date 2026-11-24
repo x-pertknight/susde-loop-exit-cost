@@ -1,5 +1,5 @@
 -- sUSDe / PYUSD market on Morpho: weekly net change in debt, March to mid September 2026, for the three
--- addresses with the largest fall, the next seven, and all others. Dune query 9179887.
+-- addresses with the largest fall, the next seven, and all others. Public Dune query: https://dune.com/queries/9186422
 -- Debt per address is rebuilt from Borrow, Repay and Liquidate events (PYUSD, interest not included).
 -- "Fall" of an address = its debt on 15 April 2026 minus its debt on 15 August 2026.
 -- Addresses are ranked by fall and reported in groups of three and ten. No address is in the output.

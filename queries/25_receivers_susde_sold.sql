@@ -1,5 +1,5 @@
 -- sUSDe withdrawn from the sUSDe / PYUSD market on Morpho: did the receiving address then sell sUSDe?
--- Whole life of the market, in aggregate. Dune query 9186181.
+-- Whole life of the market, in aggregate. Public Dune query: https://dune.com/queries/9186433
 -- Same denominator and the same two counting rules as the unstake match (queries 10 and 11):
 -- each sale is counted once, with the time since the latest withdrawal to the same address. Rule one caps
 -- the matched amount at what the address received over its whole life, rule two at what it received on the

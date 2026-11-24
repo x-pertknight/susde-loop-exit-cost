@@ -1,4 +1,4 @@
--- Daily DEX volume of sUSDe on Ethereum against any token, last 90 full days. Dune query 9186175.
+-- Daily DEX volume of sUSDe on Ethereum against any token, last 90 full days. Public Dune query: https://dune.com/queries/9186415
 -- "sold" counts trades where sUSDe is the token sold. amount_usd is Dune's own USD value of the trade.
 -- Cutoff: only events before 2026-11-24 00:00:00 UTC are read, so a rerun gives the saved result.
 WITH t AS (

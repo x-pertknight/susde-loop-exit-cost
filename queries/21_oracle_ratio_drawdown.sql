@@ -1,5 +1,5 @@
 -- Chainlink USDe / USD divided by PYUSD / USD since December 2025: the part of the market's oracle that can
--- fall. Lowest value and largest drawdown from a running high. Dune query 9186173.
+-- fall. Lowest value and largest drawdown from a running high. Public Dune query: https://dune.com/queries/9186429
 -- At every update of either feed the ratio uses the two latest answers, as the oracle contract would.
 -- Feed addresses as in query 09. The sUSDe contract rate, the third input, is not in this ratio.
 -- Cutoff: only events before 2026-11-24 00:00:00 UTC are read, so a rerun gives the saved result.
